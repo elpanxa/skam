@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_camera_default_readable">
+        <item>Appareil photo Casper</item>
+        <item>Application Photo installée</item>
+    </string-array>
+    <string-array name="items_notification_interval">
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="items_notification_interval_readable">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 heure</item>
+    </string-array>
+</resources>

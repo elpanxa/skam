@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_sub_categories">
+        <Preference android:icon="@drawable/ic_download_dark" android:title="@string/pref_category_autodownload" android:key="pref_key_category_autodownload" />
+        <Preference android:icon="@drawable/ic_save_dark" android:title="@string/pref_category_autosave" android:key="pref_key_category_autosave" />
+        <Preference android:icon="@drawable/ic_view_dark" android:title="@string/pref_category_autoview" android:key="pref_key_category_autoview" />
+        <Preference android:icon="@drawable/ic_camera" android:title="@string/pref_category_camera" android:key="pref_key_category_camera" />
+        <Preference android:icon="@drawable/ic_display" android:title="@string/pref_category_display" android:key="pref_key_category_display" />
+        <Preference android:icon="@drawable/ic_notifications" android:title="@string/pref_category_notifications" android:key="pref_key_category_notifications" />
+        <Preference android:icon="@drawable/ic_snapchat" android:title="@string/pref_category_snapchat" android:key="pref_key_category_snapchat" />
+        <Preference android:icon="@drawable/ic_lock" android:title="@string/pref_category_security" android:key="pref_key_category_security" />
+        <Preference android:icon="@drawable/ic_folder" android:title="@string/pref_category_storage" android:key="pref_key_category_storage" />
+        <Preference android:icon="@drawable/ic_rocket" android:title="@string/pref_category_experimental" android:key="pref_key_category_experimental" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_sub_category_device">
+        <ListPreference android:entries="@array/items_device_type_readable" android:title="@string/pref_device_type_title" android:key="pref_key_device_type" android:summary="%s" android:defaultValue="android" android:entryValues="@array/items_device_type" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_sub_category_other">
+        <Preference android:title="@string/pref_category_about" android:key="pref_key_category_about" />
+        <Preference android:title="@string/pref_donate_title" android:key="pref_key_donate" />
+    </PreferenceCategory>
+</PreferenceScreen>

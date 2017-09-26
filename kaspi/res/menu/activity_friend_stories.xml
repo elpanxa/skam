@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_download" android:id="@id/action_save" android:visible="false" android:title="@string/button_download" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_view" android:id="@id/action_mark_viewed_all" android:visible="false" android:title="@string/action_mark_viewed_all" app:showAsAction="never" />
+</menu>

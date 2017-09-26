@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_accept_request">Legg til som venn</string>
+    <string name="action_block_user">Blokker bruker</string>
+    <string name="action_close_drawer">Lukk felt</string>
+    <string name="action_delete_all_stories">Slett alle Historier</string>
+    <string name="action_delete_request">Fjern venn</string>
+    <string name="action_delete_story">Slett denne Historien</string>
+    <string name="action_edit">Rediger</string>
+    <string name="action_edit_display">Redigér navn</string>
+    <string name="action_logout">Logg ut</string>
+    <string name="action_mark_replayed">Markér besvart</string>
+    <string name="action_mark_screenshot">Markér skjermbilde</string>
+    <string name="action_mark_viewed">Markér sett</string>
+    <string name="action_open_drawer">Åpne felt</string>
+    <string name="action_reauth">Re-godkjenn Google</string>
+    <string name="action_reply">Svar</string>
+    <string name="action_save">Lagre</string>
+    <string name="action_send_as_snap">Send som Snap</string>
+    <string name="action_send_snap">Send Snap</string>
+    <string name="action_share">Del</string>
+    <string name="action_stats">Statistikk</string>
+    <string name="action_unblock_user">Fjern blokkering av bruker</string>
+    <string name="action_unfriend">Fjern venn</string>
+    <string name="button_add_friend">Legg til venn</string>
+    <string name="button_agree">Godta</string>
+    <string name="button_buy_addon">Kjøp et tillegg</string>
+    <string name="button_cancel">Avbryt</string>
+    <string name="button_choose">Velg</string>
+    <string name="button_close">Lukk</string>
+    <string name="button_continue">Fortsett</string>
+    <string name="button_decline">Avslå</string>
+    <string name="button_download">Last ned</string>
+    <string name="button_having_trouble">Problemer?</string>
+    <string name="button_later">Senere</string>
+    <string name="button_learn_more">Les mer</string>
+    <string name="button_no">Nei</string>
+    <string name="button_ok">OK</string>
+    <string name="button_photo">Bilde</string>
+    <string name="button_relaunch">Start på nytt</string>
+    <string name="button_retry">Prøv på nytt</string>
+    <string name="button_update">Oppdatér</string>
+    <string name="button_video">Video</string>
+    <string name="button_yes">Ja</string>
+    <string name="error_chat_friend_fail">Kan ikke Chatte med denne brukeren.</string>
+    <string name="error_chat_gateway_error">Klarte ikke å koble til Chat tjenesten.</string>
+    <string name="error_file_not_found">Filen er ikke funnet!</string>
+    <string name="error_file_not_usable">Kan ikke bruke denne filen</string>
+    <string name="error_file_web_not_usable">Kan ikke bruke internett filer</string>
+    <string name="error_image">Bilde dekoding mislykket</string>
+    <string name="error_imoji_load_failed">Klarte ikke å laste ned Imoji</string>
+    <string name="error_media_size_rejected">"Snapchat avviste media'en fordi den var for stor. Du må krympe videoen med en komprimering app."</string>
+    <string name="hint_auth_token_snapchat">Snapchat AuthToken</string>
+    <string name="hint_email_google">Google epost</string>
+    <string name="hint_password_google">Google passord</string>
+    <string name="hint_password_snapchat">Snapchat passord</string>
+    <string name="hint_username_snapchat">Snapchat brukernavn</string>
+    <string name="info_about_imoji">"Stickere her er tilbudt av Imoji Public API.
+
+Du kan lage din egen sticker i Imoji appen og deretter søke etter dem der.
+
+Hente Imoji appen fra Google Play?"</string>
+    <string name="info_account_already_added">Kontoen er allerede pålogget, bytter til den.</string>
+    <string name="info_action_failed">Mislyktes, prøv igjen senere.</string>
+    <string name="info_addon_multiple_accounts">"Dette er en ekstra tilleggstjeneste.
+
+Du vil være i stand til å logge inn på flere kontoer og bytte raskt mellom dem.
+
+Vil du kjøpe denne tilleggstjenesten?"</string>
+    <string name="info_addons_relaunch_required">"Konto:
+%1$s
+
+Tillegger kjøpt:
+%2$s
+
+En omstart er nødvendig."</string>
+    <string name="info_authenticating">Godkjenner</string>
+    <string name="info_authenticating_chat">Autentiserer med Chat</string>
+    <string name="info_change_font">For å endre teksttypen, trykk på tre-prikker ikonet og velg ¨Endre skrifttypen¨ på verktøylinjen for tekst.</string>
+    <string name="info_chat_unstable">"Chatten er ekstremt ustabilt.
+
+Du kan motta meldinger og sende tekstmeldinger tilbake.
+
+Mottatt media åpnes automatisk når mottatt.
+
+Jeg skal gjøre det ryddigere senere."</string>
+    <string name="info_clear_drawing">Fjern tegning?</string>
+    <string name="info_clear_stickers">Fjern stickers?</string>
+    <string name="info_conversation_empty">Samtalen er tom</string>
+    <string name="info_copied_clipboard">Kopierte AuthToken til utklippstavlen</string>
+    <string name="info_default_camera">"Casper har et eget innebygd kamera (Eksperimentelt/Under utvikling).
+
+Den virker kanskje ikke i det hele tatt på enheten.
+
+Du kan bytte mellom Casper's kamera og enhetens kamera som er i Innstillinger."</string>
+    <string name="info_delete_emoji_pack">Slette Emoji pakke?</string>
+    <string name="info_delete_stories">Slette hele Historien din?</string>
+    <string name="info_delete_story">Slette denne historien?</string>
+    <string name="info_deleted">Slettet</string>
+    <string name="info_deleting">Sletter</string>
+    <string name="info_device_gallery_intent_error">Fler-Galleri filtyper støttes ikke, hvilken media type velger du?</string>
+    <string name="info_disable_notifications_snapchat_session">Casper varsler er deaktivert, Snapchat vil gi øyeblikkelige varsler.</string>
+    <string name="info_download_emoji_apple">Last ned Apple Emoji pakke?</string>
+    <string name="info_download_emoji_google">Last ned Google Emoji pakke?</string>
+    <string name="info_download_first">Last ned skrifttype for å bruke den!</string>
+    <string name="info_download_fonts">Last ned noen skifttyper først!</string>
+    <string name="info_downloaded">Nedlastet!</string>
+    <string name="info_downloading_emoji_pack">Laster ned Emoji pakken</string>
+    <string name="info_downloading_font">Laster ned skrifttype</string>
+    <string name="info_downloading_update">Laster ned oppdateringer</string>
+    <string name="info_facebook_and_updates">"Casper er ikke tilgjengelig på Google Play butikken, og krever manuell oppdateringer.
+Casper vil sjekke for oppdateringer automatisk og vil gi deg varsel ved installering.
+Vennligst bruk et øyeblikk på å like Casper på Facebook siden så du kan motta viktig varsler."</string>
+    <string name="info_failed_tap_retry">Nedlasting feilet, trykk for å prøve på nytt</string>
+    <string name="info_fetching_preview">Henter forhåndsvisning..</string>
+    <string name="info_font_downloaded">Skrifttype nedlastet!</string>
+    <string name="info_font_preview_failed">Mislyktes med å hente forhåndsvisning.</string>
+    <string name="info_forward_video_caption">Beholde tegning og tekst for denne videresendte videoen?</string>
+    <string name="info_friend_mutual_request">Dere er allerede venner, eller en forespørsel er sendt.</string>
+    <string name="info_google_reauth">Dette vil ugyldiggjøre den lokale Google Token og tvinge en reauth med Google.</string>
+    <string name="info_hold_snap_reply">Trykke på en Snap vil gi Snap avsender som mottaker for neste Snap du sender. Hvis du vil vise en Snap, bare trykk på det en gang.</string>
+    <string name="info_invalid_auth_token">Brukernavnet og AuthToken ble avvist.</string>
+    <string name="info_loading">Starter Casper</string>
+    <string name="info_loading_fonts">Henter skrifttype</string>
+    <string name="info_loading_imoji">Henter Sticker</string>
+    <string name="info_logged_out">"'%1$s' har blitt logget av!"</string>
+    <string name="info_login_credentials_blank">Innloggingsdetaljer er påkrevd.</string>
+    <string name="info_login_credentials_google_blocked">"Ditt påloggingsforsøk ble blokkert av Google.
+
+Hvis dette fortsetter å skje, vennligst trykk \"Les mer\"."</string>
+    <string name="info_login_credentials_google_incorrect">"Eposten/passordet du har skrevet stemmer ikke overens.
+
+Hvis informasjonen stemmer, så kan det hende du har 2-trinns autorisering aktivert og du blir nødt til å lage et spesifikk applikasjons passord.
+
+Vennligst prøv igjen."</string>
+    <string name="info_login_error">"Casper kan ikke logge inn. Prøv igjen senere.
+
+Flere detaljer:
+%1$s"</string>
+    <string name="info_login_google">For å omgå Snapchat tredjeparts app blokkering, må Casper ha en gyldig Google-konto for godkjenning. Vennligst trykk ¨Les mer¨ for mer informasjon.</string>
+    <string name="info_login_snapchat">Din Snapchat informasjon sendes kun til Snapchat sine servere, og lagres lokalt på denne enheten. Vennligst trykk ¨Les mer¨ for mer informasjon.</string>
+    <string name="info_login_step_1">Innloggingsmetode 1 av 2</string>
+    <string name="info_login_step_1_google">Google autentisering</string>
+    <string name="info_login_step_2">Innloggingsmetode 2 av 2</string>
+    <string name="info_login_step_2_snapchat">Snapchat autentisering</string>
+    <string name="info_logout_server">Logge ut fra Snapchat serveren også? Vil forårsake at Snapchat appen logger ut når den bruker samme økten.</string>
+    <string name="info_lose_snap">Vil du avslutte? Du vil miste dine Snaps!</string>
+    <string name="info_marking_screenshot">Marker som Skjermbilde!</string>
+    <string name="info_marking_viewed">Marker som Sett!</string>
+    <string name="info_media_downloading">Media laster ned!</string>
+    <string name="info_must_agree">Du må godta for å bruke Casper</string>
+    <string name="info_new_snap">Ny Snap fra %1$s</string>
+    <string name="info_no_addons_purchased">Ingen tillegg er kjøpt</string>
+    <string name="info_no_chat">"Chat meldinger er ikke tilgjengelig i Casper.
+
+Jeg har planer om å legge den til, men på dette tidspunktet så kan jeg ikke det.
+
+For øyeblikket må du bruke den offisielle appen."</string>
+    <string name="info_no_fonts">Ingen skifttyper tilgjengelig</string>
+    <string name="info_no_friends">Ingen venner?!</string>
+    <string name="info_no_friends_requests">Ingen venneforespørsler!</string>
+    <string name="info_no_snaps">Ingen Snap!</string>
+    <string name="info_no_stories">Ingen Historier!</string>
+    <string name="info_no_story_views">Ingen har sett på denne Historien!</string>
+    <string name="info_no_updates">"Ingen oppdatering er tilgjengelig
+Bruker v%1$s"</string>
+    <string name="info_no_updates_beta">"Ingen BETA oppdateringer tilgjengelig
+Bruker v%1$s"</string>
+    <string name="info_one_moment">Et øyeblikk</string>
+    <string name="info_processing_friends">Synkroniserer venner</string>
+    <string name="info_processing_image">Behandler bilde</string>
+    <string name="info_processing_thumbnail">Lager videominiatyrbilde</string>
+    <string name="info_processing_zip">Forbereder ZIP-arkiv</string>
+    <string name="info_provide_details_google_first">Vennligst logg inn med en Google konto først.</string>
+    <string name="info_reading_snapchat_session">Leser Snapchat økt</string>
+    <string name="info_recipients_limit">For mange mottakere, sender bare til de første 200!</string>
+    <string name="info_refreshing_snaps">Oppdaterer Snaps</string>
+    <string name="info_reply_snap">Ta/Velg en Snap å svare med.</string>
+    <string name="info_saved">Lagret!</string>
+    <string name="info_select_font">Når du har lastet ned en skrifttype, trykk på skrifttypen for å bruke den.</string>
+    <string name="info_select_recipients">Velg minst en mottaker</string>
+    <string name="info_send_friend_snap">Ta/Velg en Snap å sende.</string>
+    <string name="info_sending_to_recipients">Sender til mottakere</string>
+    <string name="info_sent">Snap sendt!</string>
+    <string name="info_share_via_casper">"Hvis du ikke kan velge videoer eller en annen grunn, kan du ¨Dele via¨ Casper.
+
+Åpne galleriet ditt, finn videoen og trykk på ¨Del¨ ikonet.
+
+Deretter velg Casper i delingslisten."</string>
+    <string name="info_snap_cached">Snap funnet i mappe!</string>
+    <string name="info_snap_sent">Snap sendt!</string>
+    <string name="info_snapchat_session_not_available">"Det ser ut som du ikke er logget på Snapchat.
+
+Logg på Snapchat for å bruke denne funksjonen."</string>
+    <string name="info_snapchat_session_not_found">"Casper kan ikke lese dataen fra Snapchat økten.
+
+Dette er fordi enheten din ikke har Root tilgang eller Casper kan ikke finne øktfilen.
+
+:'("</string>
+    <string name="info_snapchat_session_root">"Hvis din enhet har Root tilgang, kan Casper være logget inn i samme økt som Snapchat.
+
+Du vil være i stand til å sende Snaps i Snapchat deretter åpne Casper for å lagre Snaps uten å bli logget ut av appene.
+
+Logger ut av en app vil forårsake at begge appene blir logget ut av."</string>
+    <string name="info_snaptag_download_failed">Klarte ikke å hente SnapTag!</string>
+    <string name="info_stats">"Resultat: %1$d
+Sendte: %2$d
+Mottatte: %3$d
+Venner: %4$d"</string>
+    <string name="info_stories_empty">Ingen Historier tilgjengelig</string>
+    <string name="info_tos">Føre bruk av Casper må du lese og godkjenne &lt;a href=%1$s>Vilkår for bruk&lt;/a></string>
+    <string name="info_update_available">"En oppdatering av Casper er tilgjengelig.
+
+Det anbefales at du oppdaterer nå.
+
+Oppdateringen tar bare et øyeblikk, oppdater nå?"</string>
+    <string name="info_update_failed_manually_retry">Mislyktes med å laste ned oppdateringen, gå til den manuelle nedlastingssiden?</string>
+    <string name="info_uploading_to_snapchat">Laster opp til Snapchat</string>
+    <string name="info_username_auth_token">Vennligst oppgi brukernavn med AuthToken.</string>
+    <string name="info_video_error_reopen">"Noen videoer nektes å spille første gangen.
+
+Trykk OK for å prøve igjen.
+
+"</string>
+    <string name="info_video_too_large">"Den valgte videoen er større enn 5 MB
+
+Snapchat vil ikke akseptere den.
+
+Bruk en komprimerings app for å krympe videoen.
+
+Valgt filstørrelse: %1$s"</string>
+    <string name="info_view_snap_hide_toolbars">Trykk på bildet eller videoen for å vise/skjule verktøylinjen.</string>
+    <string name="info_viewed_icon">"Dette ikonet betyr at du har merket denne Historien som vist.
+Den vil vises etter du oppdaterer vinduet hvis du har akkurat merket en Historie sett."</string>
+    <string name="item_media_deleted">Denne Historien har blitt slettet</string>
+    <string name="item_media_time_downloading">Laster ned - %1$s</string>
+    <string name="item_media_time_reply">%1$s - Trykk for å svare</string>
+    <string name="item_media_time_tap_download">Trykk for å laste ned - %1$s</string>
+    <string name="item_media_time_tap_view">%1$s - Trykk for å se</string>
+    <string name="title_about">Om</string>
+    <string name="title_about_version">Versjon</string>
+    <string name="title_about_version_summary">v%1$s</string>
+    <string name="title_account_stats">Konto statistikk</string>
+    <string name="title_add_account">Legg til Snapchat konto</string>
+    <string name="title_addons">Tillegg</string>
+    <string name="title_announcements">Siste kunngjøringer</string>
+    <string name="title_auto_mark_viewed">Marker sett automatisk</string>
+    <string name="title_auto_mark_viewed_snaps_open">Snaps når åpnet</string>
+    <string name="title_auto_mark_viewed_stories_open">Historier når åpnet</string>
+    <string name="title_auto_save_sent_snaps">Lagre sendte Snaps</string>
+    <string name="title_auto_save_snaps">Lagre Snaps etter nedlasting</string>
+    <string name="title_auto_save_snaps_open">Lagre Snaps når åpnet</string>
+    <string name="title_auto_save_stories">Lagre Historier etter nedlasting</string>
+    <string name="title_auto_save_stories_open">Lagre Historier når åpnet</string>
+    <string name="title_auto_saving">Lagrer automatisk</string>
+    <string name="title_background">Bakgrunn</string>
+    <string name="title_camera">Kamera</string>
+    <string name="title_casper_login">Casper Pålogging</string>
+    <string name="title_change_colour">Bytt farge</string>
+    <string name="title_change_font">Forandre skrifttype</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_check_purchases">Sjekk kjøp</string>
+    <string name="title_check_update">Sjekk for oppdatering</string>
+    <string name="title_choose_account">Velg konto</string>
+    <string name="title_choose_recipients">Velg mottaker</string>
+    <string name="title_confirm_action">Bekreft handling</string>
+    <string name="title_conversation">Samtale</string>
+    <string name="title_credentials">Påloggingsinformasjon</string>
+    <string name="title_default_camera">Standard kamera</string>
+    <string name="title_default_camera_summary">Velg hvilket kamera som blir brukt når Kamera ikonet brukes.</string>
+    <string name="title_display">Visning</string>
+    <string name="title_emoji_apple">Apple Emoji</string>
+    <string name="title_emoji_google">Google Emoji</string>
+    <string name="title_enable_notifications">Aktiver</string>
+    <string name="title_error_occurred">Oops!</string>
+    <string name="title_facebook">Facebook</string>
+    <string name="title_follow_me">Følg meg</string>
+    <string name="title_fonts">Skrifttype</string>
+    <string name="title_friends">Venner</string>
+    <string name="title_friends_requests">Venneforespørsler</string>
+    <string name="title_get_addons">Skaff tillegg</string>
+    <string name="title_get_addons_ads">Fjern annonse</string>
+    <string name="title_google">Google</string>
+    <string name="title_help">Hjelp</string>
+    <string name="title_hide_viewer_toolbar">Skjul visnings verktøylinjen</string>
+    <string name="title_hide_viewer_toolbar_summary">Skjul verktøylinjen når Snaps er åpnet. (Trykk for å vise den)</string>
+    <string name="title_imoji">Stickers fra Imoji</string>
+    <string name="title_imoji_about">Om Imoji</string>
+    <string name="title_info">Informasjon</string>
+    <string name="title_instagram">Instagram</string>
+    <string name="title_knowledge_base">Kunnskaps Database</string>
+    <string name="title_manage_accounts">Legg til konto</string>
+    <string name="title_managers">Managers</string>
+    <string name="title_media_clear_cache">Slett hurtiglagringsmappen</string>
+    <string name="title_media_clear_cache_summary">Slett midlertidige filer og start på nytt.</string>
+    <string name="title_media_folder">"Casper's lagringsmappe"</string>
+    <string name="title_media_folder_summary">"Du har valgt:
+%1$s
+
+Det er der alle lagrede/nedlastede filer vil bli lagret.
+
+Casper vil lage andre mapper i denne målmappen.
+
+Unngå å bruke et eksternt SD-kort, hvis det blir fjernet vil det gå tilbake til standardmappen.
+
+Alle lagrede Snaps vil IKKE bli flyttet til den nye mappen.
+
+En omstart for å ta i bruk den nye endringen?"</string>
+    <string name="title_message_hint">Send en Chat</string>
+    <string name="title_my_stories">Min Historie</string>
+    <string name="title_notifications">Varsler</string>
+    <string name="title_notifications_interval">Sjekk ved intervalltid</string>
+    <string name="title_notifications_interval_summary">Intervall for å sjekke serveren for nye Snaps. Tilfeldige tidspunkter (mellom 0 og 15 minutter) vil bli lagt til i intervallet for neste syklus, for å virke som reellt bruk av Snapchat serveren. For eksempel ved valg av 15 minutter, vil den se etter nye snaps når som helst mellom 15 og 30 minutter.</string>
+    <string name="title_or">eller</string>
+    <string name="title_other">Annet</string>
+    <string name="title_other_auto_download_stories">Last ned Historier automatisk</string>
+    <string name="title_other_blackberry_mode">BlackBerry modus</string>
+    <string name="title_other_blackberry_mode_summary">Aktiver denne hvis du bruker en BlackBerry enhet.</string>
+    <string name="title_remember_google">Husk Google påloggingsinformasjon</string>
+    <string name="title_remember_password">Husk Snapchat passordet</string>
+    <string name="title_remember_password_summary">Autofyll passord når man er logget ut av Snapchat serveren.</string>
+    <string name="title_remove_font">Bruk vanlig skrifttype</string>
+    <string name="title_remove_google_account">Fjern Google kontoen</string>
+    <string name="title_remove_snapchat_accounts">Fjern alle Snapchat kontoer</string>
+    <string name="title_saved_snaps">Lagrede Snaps</string>
+    <string name="title_search_hint">Trykk for å søke etter Stickers</string>
+    <string name="title_send_camera">Åpne kamera</string>
+    <string name="title_send_gallery">Velg fra Galleriet</string>
+    <string name="title_session_authtoken">Øktens AuthToken</string>
+    <string name="title_settings">Innstillinger</string>
+    <string name="title_show_view_time">Snap/Historietid</string>
+    <string name="title_snapchat">Snapchat</string>
+    <string name="title_snapchat_session">Bruk Snapchat økten (Root)</string>
+    <string name="title_snaps">Snaps</string>
+    <string name="title_storage">Lagring</string>
+    <string name="title_stories">Historier</string>
+    <string name="title_story_stats">Historie statistikk</string>
+    <string name="title_switch_account">Bytt konto</string>
+    <string name="title_terms_of_use">Vilkår for bruk</string>
+    <string name="title_text">Tekst</string>
+    <string name="title_update">Oppdatér</string>
+    <string name="title_updates">Oppdateringer</string>
+    <string name="title_updates_beta">Få BETA oppdateringer</string>
+    <string name="title_updates_beta_summary">Hvis jeg utgir en oppdatering med eksperimentelle funksjoner vil du bli varslet akkurat som en vanlig oppdatering.</string>
+    <string name="title_username_hint">Brukernavn</string>
+    <string name="title_view_snaptag">Min Snaptag</string>
+</resources>

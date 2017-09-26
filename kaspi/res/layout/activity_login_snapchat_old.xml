@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" style="@style/Widget.Casper.Toolbar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="25.0dip" />
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="20.0sp" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_login_step_1" />
+                        <TextView android:textSize="18.0sp" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" android:text="@string/info_login_step_2_snapchat" />
+                        <EditText android:id="@id/text_username" android:padding="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="10.0dip" android:hint="@string/hint_username_snapchat" android:singleLine="true" android:inputType="textEmailAddress" />
+                        <EditText android:id="@id/text_password" android:padding="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="15.0dip" android:hint="@string/hint_password_snapchat" android:singleLine="true" android:inputType="textPassword" />
+                        <TextView android:textStyle="bold" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_or" android:textAllCaps="true" />
+                        <EditText android:id="@id/text_auth_token" android:padding="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="10.0dip" android:hint="@string/hint_auth_token_snapchat" android:singleLine="true" android:inputType="textVisiblePassword|textNoSuggestions" />
+                        <TextView android:layout_gravity="center" android:id="@id/text_having_trouble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/button_having_trouble" />
+                        <TextView android:padding="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="5.0dip" android:text="@string/info_login_snapchat" />
+                    </LinearLayout>
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="25.0dip" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+    <android.support.v7.widget.Toolbar android:background="@color/theme_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_toolbar_left" android:layout_marginRight="@dimen/margin_toolbar_right">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <Button android:textColor="@color/white" android:id="@id/button_learn_more" android:text="@string/button_learn_more" android:textAllCaps="true" style="@style/Casper.DirectionalButton" />
+            <Button android:textColor="@color/white" android:id="@id/button_continue" android:text="@string/button_continue" android:textAllCaps="true" style="@style/Casper.DirectionalButton" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>

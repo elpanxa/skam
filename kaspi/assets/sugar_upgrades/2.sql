@@ -1,0 +1,1 @@
+alter table FRIEND add USER_ID TEXT;

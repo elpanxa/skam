@@ -1,0 +1,45 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: kaspi.apk
+compressionType: false
+doNotCompress:
+- arsc
+- zip
+- sql
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '21'
+sharedLibrary: false
+unknownFiles:
+  bar.png: '8'
+  browser_back.png: '8'
+  browser_external.png: '8'
+  browser_forward.png: '8'
+  browser_reload.png: '8'
+  close_button_normal.png: '8'
+  close_button_pressed.png: '8'
+  skip.png: '8'
+  video_pause.png: '8'
+  video_play.png: '8'
+  video_replay.png: '8'
+  model-distance-calculations.json: '8'
+  README.txt: '8'
+  drawable-hdpi.zip: '8'
+  drawable-xhdpi.zip: '8'
+  drawable-mdpi.zip: '8'
+  drawable-ldpi.zip: '8'
+  drawable-xxhdpi.zip: '8'
+  drawable.zip: '8'
+  resources.zip: '8'
+  fabric/com.mopub.sdk.android.mopub.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.2
+versionInfo:
+  versionCode: '44'
+  versionName: 1.5.6.5

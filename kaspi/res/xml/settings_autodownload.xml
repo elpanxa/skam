@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_autodownload">
+        <CheckBoxPreference android:title="@string/pref_autodownload_snaps" android:key="pref_key_autodownload_snaps" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_autodownload_stories" android:key="pref_key_autodownload_stories" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

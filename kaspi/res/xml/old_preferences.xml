@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/title_auto_mark_viewed" android:key="autoviewing">
+        <CheckBoxPreference android:title="@string/title_auto_mark_viewed_snaps_open" android:key="@string/pref_settings_auto_mark_viewed_snaps_open" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_auto_mark_viewed_stories_open" android:key="@string/pref_settings_auto_mark_viewed_stories_open" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_auto_saving" android:key="autosaving">
+        <CheckBoxPreference android:title="@string/title_auto_save_snaps" android:key="@string/pref_settings_auto_save_snaps" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_auto_save_stories" android:key="@string/pref_settings_auto_save_stories" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_auto_save_snaps_open" android:key="@string/pref_settings_auto_save_snaps_open" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_auto_save_stories_open" android:key="@string/pref_settings_auto_save_stories_open" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_auto_save_sent_snaps" android:key="@string/pref_settings_auto_save_sent_snaps" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_camera" android:key="camera">
+        <ListPreference android:entries="@array/items_camera_default_readable" android:title="@string/title_default_camera" android:key="@string/pref_settings_default_camera" android:summary="@string/title_default_camera_summary" android:defaultValue="casper_camera" android:entryValues="@array/items_camera_default" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_other" android:key="other">
+        <CheckBoxPreference android:title="@string/title_other_auto_download_snaps" android:key="@string/pref_settings_auto_download_snaps" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/title_other_auto_download_stories" android:key="@string/pref_settings_auto_download_stories" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_other_select_documents_app" android:key="@string/pref_settings_select_documents_app" android:summary="@string/title_other_select_documents_app_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_other_blackberry_mode" android:key="@string/pref_settings_blackberry_mode" android:summary="@string/title_other_blackberry_mode_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_other_bluestacks_mode" android:key="@string/pref_settings_bluestacks_mode" android:summary="@string/title_other_bluestacks_mode_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_other_custom_video_thumbnail" android:key="@string/pref_settings_custom_video_thumbnail" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_account" android:key="account">
+        <Preference android:title="@string/title_clear_conversations" android:key="account_clear_conversations" />
+        <CheckBoxPreference android:title="@string/title_remember_password" android:key="@string/pref_settings_remember_password" android:summary="@string/title_remember_password_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/title_location_updates" android:key="@string/pref_settings_location_updates" android:summary="@string/title_location_updates_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_privacy" android:key="privacy">
+        <ListPreference android:entries="@array/items_privacy_readable" android:title="@string/title_privacy_snaps" android:key="@string/pref_settings_privacy_snaps" android:entryValues="@array/items_privacy" />
+        <ListPreference android:entries="@array/items_privacy_stories_readable" android:title="@string/title_privacy_stories" android:key="@string/pref_settings_privacy_stories" android:entryValues="@array/items_privacy_stories" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_display" android:key="display">
+        <CheckBoxPreference android:title="@string/title_show_circle_story_icons" android:key="@string/pref_settings_show_circle_story_icons" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_show_view_time" android:key="@string/pref_settings_show_view_time" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/title_hide_live_events" android:key="@string/pref_settings_hide_live_events" android:summary="@string/title_hide_live_events_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_hide_viewer_toolbar" android:key="@string/pref_settings_hide_viewer_toolbar" android:summary="@string/title_hide_viewer_toolbar_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_notifications" android:key="notifications">
+        <CheckBoxPreference android:title="@string/title_enable_notifications" android:key="@string/pref_settings_enable_notifications" android:defaultValue="true" />
+        <ListPreference android:entries="@array/items_notification_interval_readable" android:title="@string/title_notifications_interval" android:key="@string/pref_settings_notifications_interval" android:summary="@string/title_notifications_interval_summary" android:defaultValue="30" android:entryValues="@array/items_notification_interval" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_experimental" android:key="notifications">
+        <CheckBoxPreference android:title="@string/title_experimental_background_uploads" android:key="@string/pref_settings_experimental_background_uploads" android:summary="@string/title_experimental_background_uploads_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/title_experimental_send_quick_launch" android:key="@string/pref_settings_experimental_send_quick_launch" android:summary="@string/title_experimental_send_quick_launch_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/title_experimental_swipe_stories" android:key="@string/pref_settings_experimental_swipe_stories" android:summary="@string/title_experimental_swipe_stories_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_storage" android:key="storage">
+        <Preference android:title="@string/title_media_folder" android:key="@string/pref_settings_media_folder" />
+        <Preference android:title="@string/title_media_clear_cache" android:key="@string/pref_settings_media_clear_cache" android:summary="@string/title_media_clear_cache_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_updates" android:key="updates">
+        <CheckBoxPreference android:title="@string/title_updates_beta" android:key="@string/pref_settings_updates_beta" android:summary="@string/title_updates_beta_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_about" android:key="about">
+        <Preference android:title="@string/title_about_version" android:key="about_version" />
+    </PreferenceCategory>
+</PreferenceScreen>

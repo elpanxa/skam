@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_autosave_snaps">
+        <CheckBoxPreference android:title="@string/pref_autosave_snaps_sent_title" android:key="pref_key_autosave_snaps_sent" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_autosave_snaps_when_opened_title" android:key="pref_key_autosave_snaps_when_opened" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_autosave_snaps_when_downloaded_title" android:key="pref_key_autosave_snaps_when_downloaded" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_autosave_stories">
+        <CheckBoxPreference android:title="@string/pref_autosave_stories_when_opened_title" android:key="pref_key_autosave_stories_when_opened" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_autosave_stories_when_downloaded_title" android:key="pref_key_autosave_stories_when_downloaded" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

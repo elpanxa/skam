@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_snapchat_account">
+        <Preference android:title="@string/pref_snapchat_account_clear_conversations_title" android:key="pref_key_snapchat_account_clear_conversations" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_snapchat_who_can">
+        <ListPreference android:entries="@array/items_snapchat_who_can_send_me_snaps_readable" android:title="@string/pref_snapchat_who_can_send_me_snaps_title" android:key="pref_key_snapchat_who_can_send_me_snaps" android:summary="%s" android:defaultValue="1" android:entryValues="@array/items_snapchat_who_can_send_me_snaps" />
+        <ListPreference android:entries="@array/items_snapchat_who_can_view_my_story_readable" android:title="@string/pref_snapchat_who_can_view_my_story_title" android:key="pref_key_snapchat_who_can_view_my_story" android:summary="%s" android:defaultValue="FRIENDS" android:entryValues="@array/items_snapchat_who_can_view_my_story" />
+    </PreferenceCategory>
+</PreferenceScreen>

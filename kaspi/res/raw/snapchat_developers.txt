@@ -1,0 +1,5 @@
+Hello Snapchat Developers.
+
+We see you're reverse engineering Casper now. Isn't that ironic ?? :)
+
+Team Casper (#teamcasper)

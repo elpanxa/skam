@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dialog_rootView" android:background="#55000000" android:padding="32.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/contentDialog" android:background="@drawable/dialog_background" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ff000000" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="Title" />
+        <ScrollView android:scrollbarSize="2.0dip" android:scrollbarThumbVertical="@color/thumbColor" android:id="@id/message_scrollView" android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_alignBottom="@id/message_scrollView">
+            <com.gc.materialdesign.views.ButtonFlat android:id="@id/button_cancel" android:background="#ff000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" />
+            <com.gc.materialdesign.views.ButtonFlat android:id="@id/button_accept" android:background="#ff1e88e5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Accept" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

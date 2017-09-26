@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dialog_rootView" android:background="#55000000" android:padding="32.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/contentDialog" android:background="@drawable/dialog_background" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.gc.materialdesign.views.ProgressBarCircularIndeterminate android:id="@id/progressBarCircularIndetermininate" android:background="#ff1e88e5" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ff000000" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Title" android:layout_toRightOf="@id/progressBarCircularIndetermininate" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_reply" android:id="@id/action_reply" android:title="@string/action_reply" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_view" android:id="@id/action_mark_viewed" android:title="@string/action_mark_viewed" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_download" android:id="@id/action_save" android:title="@string/action_save" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_share" android:id="@id/action_share" android:title="@string/action_share" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_send_as_snap" android:title="@string/action_send_as_snap" app:showAsAction="never" />
+    <item android:id="@id/action_mark_replayed" android:title="@string/action_mark_replayed" app:showAsAction="never" />
+    <item android:id="@id/action_mark_screenshot" android:title="@string/action_mark_screenshot" app:showAsAction="never" />
+</menu>

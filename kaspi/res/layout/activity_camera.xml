@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <io.casper.android.ui.AspectFrameLayout android:layout_gravity="center" android:id="@id/cameraFrame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/frontFlashFrame" android:background="#e6ffffff" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="25.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/switchCameraButton" android:background="@drawable/background_view_time" android:padding="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/ic_camera_switch" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/frontFlashButton" android:background="@drawable/background_view_time" android:padding="10.0dip" android:visibility="invisible" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_flash_off" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/backFlashButton" android:background="@drawable/background_view_time" android:padding="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_flash_off" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/recordingView" android:background="#99000000" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginRight="25.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/recordingImage" android:padding="3.0dip" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/ic_recording_circle" />
+        <TextView android:textColor="@color/white" android:layout_gravity="right" android:id="@id/timeText" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip">
+        <ImageView android:id="@id/captureImageButton" android:background="@drawable/background_view_time" android:padding="10.0dip" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="8.0dip" android:src="@drawable/ic_camera_white" />
+        <ImageView android:id="@id/captureVideoButton" android:background="@drawable/background_view_time" android:padding="10.0dip" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="8.0dip" android:src="@drawable/ic_video" />
+    </LinearLayout>
+</FrameLayout>

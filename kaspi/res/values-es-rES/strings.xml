@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_accept_request">Añadir como amigo</string>
+    <string name="action_block_user">Bloquear usuario</string>
+    <string name="action_close_drawer">Cerrar panel</string>
+    <string name="action_delete_all_stories">Eliminar todas las historias</string>
+    <string name="action_delete_request">Eliminar amigo</string>
+    <string name="action_delete_story">Eliminar esta historia</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_edit_display">Editar nombre</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="action_mark_replayed">Marcar como respondido</string>
+    <string name="action_mark_screenshot">Marcar como captura de pantalla</string>
+    <string name="action_mark_viewed">Marcar como visto</string>
+    <string name="action_open_drawer">Abrir panel</string>
+    <string name="action_reauth">Re-autenticar Google</string>
+    <string name="action_reply">Responder</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_send_as_snap">Enviar como Snap</string>
+    <string name="action_send_snap">Enviar Snap</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_stats">Estadísticas</string>
+    <string name="action_unblock_user">Desbloquear usuario</string>
+    <string name="action_unfriend">Eliminar amigo</string>
+    <string name="button_add_friend">Añadir amigo</string>
+    <string name="button_agree">Aceptar</string>
+    <string name="button_buy_addon">Comprar complemento</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_choose">Elegir</string>
+    <string name="button_close">Cerrar</string>
+    <string name="button_continue">Continuar</string>
+    <string name="button_decline">Denegar</string>
+    <string name="button_download">Descargar</string>
+    <string name="button_having_trouble">Teniendo problemas?</string>
+    <string name="button_later">Después</string>
+    <string name="button_learn_more">Aprender más</string>
+    <string name="button_no">No</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_photo">Foto</string>
+    <string name="button_relaunch">Reiniciar</string>
+    <string name="button_retry">Reintentar</string>
+    <string name="button_update">Actualizar</string>
+    <string name="button_video">Vídeo</string>
+    <string name="button_yes">Si</string>
+    <string name="error_chat_friend_fail">No puedes chatear con este usuario.</string>
+    <string name="error_chat_gateway_error">Error al conectar al servicio de chat.</string>
+    <string name="error_file_not_found">¡Archivo no encontrado!</string>
+    <string name="error_file_not_usable">No se puede usar ese archivo</string>
+    <string name="error_file_web_not_usable">No se pueden usar archivos de Internet</string>
+    <string name="error_image">Decodificación de imagen fallida</string>
+    <string name="error_imoji_load_failed">Error al descargar Imoji</string>
+    <string name="error_media_size_rejected">Snapchat ha denegado el archivo porque es muy grande. Usar una app para reducir el tamaño del vídeo.</string>
+    <string name="hint_auth_token_snapchat">Snapchat AuthToken</string>
+    <string name="hint_email_google">Google Email</string>
+    <string name="hint_password_google">Google contraseña</string>
+    <string name="hint_password_snapchat">Snapchat contraseña</string>
+    <string name="hint_username_snapchat">Snapchat nombre de usuario</string>
+    <string name="info_about_imoji">"Todos los stickers son facilitados por Imoji Public API.
+
+Puedes crear tus propios stickers en la app Imoji y luego buscarlos aquí.
+
+¿Quieres descargar la app Imoji desde Google Play?"</string>
+    <string name="info_account_already_added">Ya has iniciado sesión en esa cuanta, cambiando a ella.</string>
+    <string name="info_action_failed">Error, inténtalo de nuevo.</string>
+    <string name="info_addon_multiple_accounts">"Este es un complemento extra.
+
+Podrás iniciar sesión en múltiples cuentas y cambiar entre ellas rápidamente.
+
+¿Quieres comprar este complemento?"</string>
+    <string name="info_addons_relaunch_required">"Cuenta:
+%1$s
+
+Complementos comprados:
+%2$s
+
+Es necesario reiniciar Casper."</string>
+    <string name="info_authenticating">Autenticando</string>
+    <string name="info_authenticating_chat">Autenticando con el chat</string>
+    <string name="info_change_font">"Para cambiar la fuente del texto, pulsa en el icono de los tres puntos y toca 'Cambiar fuente' cuando estés en la barra de herramientas."</string>
+    <string name="info_chat_unstable">"El chat es extremadamente inestable.
+
+Puedes recibir mensajes y enviar texto de vuelta.
+
+Los archivos recibidos se abrirán automáticmante.
+
+Lo haré mejor un poco más adelante."</string>
+    <string name="info_clear_drawing">¿Borrar dibujos?</string>
+    <string name="info_clear_stickers">¿Borrar stickers?</string>
+    <string name="info_conversation_empty">La conversación está vacía</string>
+    <string name="info_copied_clipboard">Token de autenticación copiado al portapapeles</string>
+    <string name="info_default_camera">"Casper tiene su propia cámara (Experimental/En desarrollo).
+
+Puede no funcionar en absoluto en tu dispositivo.
+
+Puedes cambiar entre la cámara de Casper Camera y la instalada en tu dispositivo en los ajustes."</string>
+    <string name="info_delete_emoji_pack">¿Eliminar pack de emoji?</string>
+    <string name="info_delete_stories">¿Eliminar todas tus historias?</string>
+    <string name="info_delete_story">¿Eliminar esta historia?</string>
+    <string name="info_deleted">Eliminado</string>
+    <string name="info_deleting">Eliminando</string>
+    <string name="info_device_gallery_intent_error">Múltiples archivos no está soportado, ¿qué archivos quieres elegir?</string>
+    <string name="info_disable_notifications_snapchat_session">Las notificaciones de Casper se han desactivado, Snapchat proporcionará las notificaciones instantáneas.</string>
+    <string name="info_download_emoji_apple">¿Descargar el pack de emoji de Apple?</string>
+    <string name="info_download_emoji_google">¿Descargar el pack de emoji de Google?</string>
+    <string name="info_download_first">¡Descarga la fuente para usarla!</string>
+    <string name="info_download_fonts">¡Descargando algunas fuentes primero!</string>
+    <string name="info_downloaded">¡Descargado!</string>
+    <string name="info_downloading_emoji_pack">Descargando pack de emoji</string>
+    <string name="info_downloading_font">Descargando fuente</string>
+    <string name="info_downloading_update">Descargando actualización</string>
+    <string name="info_facebook_and_updates">"Casper no está disponible en Google Play y requiere actualizaciones manuales.
+
+Casper comprobará las actualizaciones automáticamente y te pedirá instalarlas.
+
+Por favor tómate un segundo en dar a Me gusta a la página de Facebook de Casper para que recibas noticias importantes."</string>
+    <string name="info_failed_tap_retry">Descarga fallida, toca para reintentar</string>
+    <string name="info_fetching_preview">Recuperando vista previa...</string>
+    <string name="info_font_downloaded">¡Fuente descargada!</string>
+    <string name="info_font_preview_failed">Error al recuperar la vista previa</string>
+    <string name="info_forward_video_caption">¿Mantener los dibujos y textos del vídeo enviado?</string>
+    <string name="info_friend_mutual_request">Ya sois amigos o la solicitud está pendiente.</string>
+    <string name="info_google_reauth">Esto invalidará el Token de Google y forzará una reautenticación con Google.</string>
+    <string name="info_hold_snap_reply">Mantener pulsado un Snap marcará al que lo envió como receptor de tu próximo Snap. Para ver un Snap, solo tócalo una vez.</string>
+    <string name="info_invalid_auth_token">El nombre de usuario + AuthToken fueron rechazadas.</string>
+    <string name="info_loading">Casper está cargando</string>
+    <string name="info_loading_fonts">Cargando fuentes</string>
+    <string name="info_loading_imoji">Recuperando sticker</string>
+    <string name="info_logged_out">"¡'%1$s' ha cerrado sesión!"</string>
+    <string name="info_login_credentials_blank">Las credenciales de inicio de sesión son necesarias.</string>
+    <string name="info_login_credentials_google_blocked">"El intento de inicio de sesión se ha bloqueado por Google.
+
+Si continúa pasando, toca \"Saber más\"."</string>
+    <string name="info_login_credentials_google_incorrect">"El email o contraseña son incorrectos.
+
+Si son correctos y has habilitado la autenticación en dos pasos, necesitas crear una contraseña de aplicación.
+
+Por favor inténtalo de nuevo."</string>
+    <string name="info_login_error">"Casper no puede iniciar sesión ahora mismo. Por favor, inténtalo más tarde.
+
+Más información:
+%1$s"</string>
+    <string name="info_login_google">Para evitar el bloqueo de terceras apps de Snapchat, Casper necesita una cuenta válida de Google para la autenticación. Toca \"Saber más\" para más información.</string>
+    <string name="info_login_snapchat">Las credenciales de Snapchat se enviarán a los servidores de Snapchat y se guardarán en el dispositivo. Toca \"Saber más\" para más información.</string>
+    <string name="info_login_step_1">Inicio de sesión, paso 1 de 2</string>
+    <string name="info_login_step_1_google">Autenticación de Google</string>
+    <string name="info_login_step_2">Inicio de sesión, paso 2 de 2</string>
+    <string name="info_login_step_2_snapchat">Autenticación de Snapchat</string>
+    <string name="info_logout_server">¿Quieres cerrar sesión del servidor de Snachat también? Cerrará sesión de la app de Snapchat si usa la misma sesión.</string>
+    <string name="info_lose_snap">¿Quieres salir? ¡Perderás tu Snap!</string>
+    <string name="info_marking_screenshot">¡Marcando como captura de pantalla!</string>
+    <string name="info_marking_viewed">¡Marcando como visto!</string>
+    <string name="info_media_downloading">¡Los archivos se están descargando!</string>
+    <string name="info_must_agree">Tienes que aceptar usar Casper</string>
+    <string name="info_new_snap">Nuevo Snap de %1$s</string>
+    <string name="info_no_addons_purchased">No se han comprado complementos</string>
+    <string name="info_no_chat">"Mensajería chat no disponible en Casper.
+
+Tengo planeado añadirla, pero ahora mismo me es imposible.
+
+Por ahora tendrás que usar la app oficial."</string>
+    <string name="info_no_fonts">No hay fuentes disponibles</string>
+    <string name="info_no_friends">¡¿Sin amigos?!</string>
+    <string name="info_no_friends_requests">¡No hay solicitudes de amistad!</string>
+    <string name="info_no_snaps">¡No hay Snaps!</string>
+    <string name="info_no_stories">¡No hay historias!</string>
+    <string name="info_no_story_views">¡Nadie ha visto esta historia!</string>
+    <string name="info_no_updates">"No hay actualizaciones disponibles
+Versión %1$s"</string>
+    <string name="info_no_updates_beta">"No hay actualizaciones BETA disponibles
+Versión %1$s"</string>
+    <string name="info_one_moment">Un momento</string>
+    <string name="info_processing_friends">Sincronizando amigos</string>
+    <string name="info_processing_image">Procesando imagen</string>
+    <string name="info_processing_thumbnail">Creando vista en miniatura del vídeo</string>
+    <string name="info_processing_zip">Preparando archivo Zip</string>
+    <string name="info_provide_details_google_first">Por favor inicia sesión antes con una cuenta de Google</string>
+    <string name="info_reading_snapchat_session">Leyendo sesión de Snapchat</string>
+    <string name="info_recipients_limit">¡Demasiados receptores, lo enviaremos solo a los 200 primeros!</string>
+    <string name="info_refreshing_snaps">Refrescando Snaps</string>
+    <string name="info_reply_snap">Haz/Elige un Snap para responderlo.</string>
+    <string name="info_saved">¡Guardado!</string>
+    <string name="info_select_font">Cuando descargues una fuente, tócala para usarla.</string>
+    <string name="info_select_recipients">Elige al menos un destinatario</string>
+    <string name="info_send_friend_snap">Haz/Elige un Snap para enviarlo.</string>
+    <string name="info_sending_to_recipients">Enviado a los receptores</string>
+    <string name="info_sent">¡Snap enviado!</string>
+    <string name="info_share_via_casper">"Si por cualquier motivo no puedes seleccionar los vídeos, compártelos a Casper desde otra app.
+
+Abre tu galería, encuentra el vídeo y compártelo.
+
+Después elige Casper en la lista de apps a compartir."</string>
+    <string name="info_snap_cached">¡Snap encontrado en la caché!</string>
+    <string name="info_snap_sent">¡Snap enviado!</string>
+    <string name="info_snapchat_session_not_available">"Parece que no has iniciado sesión en Snapchat.
+
+Inicia sesión en Snapchat para usar esta función."</string>
+    <string name="info_snapchat_session_not_found">"Casper no puede leer la sesión de Snapchat.
+
+Esto se debe a que tu dispositivo no está rooteado o a que Casper no puede encontrar el archivo de sesión.
+
+:'("</string>
+    <string name="info_snapchat_session_root">"Si tu dispositivo tiene acceso ROOT, Casper puede usar la misma sesión de Snapchat.
+
+Podrás enviar Snaps en Snapchat y volver a Casper para guardarlos sin que se cierre sesión en ninguna de las apps.
+
+Cerrar sesión en una de ellas, cerrará sesión en ambas."</string>
+    <string name="info_snaptag_download_failed">¡Error al descargar SnapTag!</string>
+    <string name="info_stats">"Puntuación: %1$d
+Enviado: %2$d
+Recibido: %3$d
+Amigos: %4$d"</string>
+    <string name="info_stories_empty">No hay historias</string>
+    <string name="info_tos">Antes de usar Casper tienes que leer y aceptar los &lt;a href=%1$s>Términos de uso&lt;/a></string>
+    <string name="info_update_available">"Hay una actualización de Casper disponible.
+
+Es recomendable que lo actualices ahora.
+
+Actualizar solo es un momento, ¿quieres actualizar?"</string>
+    <string name="info_update_failed_manually_retry">Error al descargar la actualización, ¿quieres ir a la página para descargar manualmente?</string>
+    <string name="info_uploading_to_snapchat">Subiendo a Snapchat</string>
+    <string name="info_username_auth_token">Por favor proporcione nombre de usuario con AuthToken</string>
+    <string name="info_video_error_reopen">"Algunos vídeos no se pueden reproducir la primera vez.
+
+Toca 'Ok' para volver a intentarlo.
+
+"</string>
+    <string name="info_video_too_large">"El vídeo seleccionado es mayor de 5MB
+
+Snapchat no lo aceptará.
+
+Usar una app para reducir el tamaño del vídeo.
+
+Tamaño del archivo seleccionado: %1$s"</string>
+    <string name="info_view_snap_hide_toolbars">Toca la foto o el vídeo para ver la barra de herramientas oculta.</string>
+    <string name="info_viewed_icon">"Este icono significa que has marcado la historia como vista.
+
+Se mostrará después de refrescar si marcas alguna historia como vista."</string>
+    <string name="item_media_deleted">Esta historia se ha eliminado</string>
+    <string name="item_media_time_downloading">Descargando - %1$s</string>
+    <string name="item_media_time_reply">%1$s - Mantén pulsado para responder</string>
+    <string name="item_media_time_tap_download">Toca para descargar - %1$s</string>
+    <string name="item_media_time_tap_view">%1$s - Toca para ver</string>
+    <string name="title_about">Acerca</string>
+    <string name="title_about_version">Versión</string>
+    <string name="title_about_version_summary">v%1$s</string>
+    <string name="title_account_stats">Estadísticas de la cuenta</string>
+    <string name="title_add_account">Añadir cuenta de Snapchat</string>
+    <string name="title_addons">Complementos</string>
+    <string name="title_announcements">Últimas novedades</string>
+    <string name="title_auto_mark_viewed">Auto-marcar como visto</string>
+    <string name="title_auto_mark_viewed_snaps_open">Snaps al abrirlos</string>
+    <string name="title_auto_mark_viewed_stories_open">Historias al abrirlas</string>
+    <string name="title_auto_save_sent_snaps">Guardar Snaps enviados</string>
+    <string name="title_auto_save_snaps">Guardar Snaps después de descargarlos</string>
+    <string name="title_auto_save_snaps_open">Guardar Snaps al abrirlos</string>
+    <string name="title_auto_save_stories">Guardar hostirias después de descargarlas</string>
+    <string name="title_auto_save_stories_open">Guardar historias al abrirlas</string>
+    <string name="title_auto_saving">Auto guardado</string>
+    <string name="title_background">Fondo</string>
+    <string name="title_camera">Cámara</string>
+    <string name="title_casper_login">Inicio de sesión de Casper</string>
+    <string name="title_change_colour">Cambiar color</string>
+    <string name="title_change_font">Cambiar fuente</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_check_purchases">Comprobar compras</string>
+    <string name="title_check_update">Comprobar actualizaciones</string>
+    <string name="title_choose_account">Elegir cuenta</string>
+    <string name="title_choose_recipients">Elegir destinatarios</string>
+    <string name="title_confirm_action">Confirmar acción</string>
+    <string name="title_conversation">Conversación</string>
+    <string name="title_credentials">Credenciales</string>
+    <string name="title_default_camera">Cámara predeterminada</string>
+    <string name="title_default_camera_summary">Elige una cámara para abrir al tocar el icono de la cámara.</string>
+    <string name="title_display">Visualización</string>
+    <string name="title_emoji_apple">Emoji de Apple</string>
+    <string name="title_emoji_google">Emoji de Google</string>
+    <string name="title_enable_notifications">Habilitar</string>
+    <string name="title_error_occurred">¡Ups!</string>
+    <string name="title_facebook">Facebook</string>
+    <string name="title_follow_me">Sígueme</string>
+    <string name="title_fonts">Fuentes</string>
+    <string name="title_friends">Amigos</string>
+    <string name="title_friends_requests">Peticiones de amistad</string>
+    <string name="title_get_addons">Conseguir complementos</string>
+    <string name="title_get_addons_ads">Eliminar publicidad</string>
+    <string name="title_google">Google</string>
+    <string name="title_help">Ayuda</string>
+    <string name="title_hide_viewer_toolbar">Ocultar barra de herramientas</string>
+    <string name="title_hide_viewer_toolbar_summary">Ocultar barra de herramientas cuando se abre un Snap. (Toca para mostrarla)</string>
+    <string name="title_imoji">Stickers de Imoji</string>
+    <string name="title_imoji_about">Acerca de Imoji</string>
+    <string name="title_info">Información</string>
+    <string name="title_instagram">Instagram</string>
+    <string name="title_knowledge_base">Base de conocimiento</string>
+    <string name="title_manage_accounts">Añadir cuenta</string>
+    <string name="title_managers">Administradores</string>
+    <string name="title_media_clear_cache">Limpiar Cache</string>
+    <string name="title_media_clear_cache_summary">Claros temporales archivos y reinciar.</string>
+    <string name="title_media_folder">Directorio</string>
+    <string name="title_media_folder_summary">"Has elegido:
+%1$s
+
+Aquí es donde se almacenan todos los archivos guardados / descargados.
+
+Casper va a crear otras carpetas en este directorio.
+
+Evite el uso de la tarjeta SD externa, si se elimina el tope de nuevo a ahorrar en la carpeta por defecto durante la instalación
+
+Todos los broches de presión guardados NO se moverán a esta nueva carpeta.
+
+Reinicie la aplicación para tener efecto?"</string>
+    <string name="title_message_hint">Enviar un mensaje</string>
+    <string name="title_my_stories">Mis historias</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="title_notifications_interval">Tiempo de comprobación</string>
+    <string name="title_notifications_interval_summary">Intervalo de tiempo para comprobar si hay nuevos Snaps. Una cantidad de tiempo aleatoria (entre 0 y 15 minutos) será añadida para cada ciclo de comprobación para simular en el servidor de Snapchat un uso real. Por ejemplo, seleccionando 15 minutos, el tiempo de comprobación será entre 15 y 30 minutos.</string>
+    <string name="title_or">o</string>
+    <string name="title_other">Otros</string>
+    <string name="title_other_auto_download_stories">Auto-descargar historias</string>
+    <string name="title_other_blackberry_mode">Modo BlackBerry</string>
+    <string name="title_other_blackberry_mode_summary">Habilita esto si usas una BlackBerry</string>
+    <string name="title_remember_google">Recordar credenciales de Google</string>
+    <string name="title_remember_password">Recordar la contraseña de Snapchat</string>
+    <string name="title_remember_password_summary">Auto-rellenar la contraseña cuando Snapchat cierra la sesión del servidor.</string>
+    <string name="title_remove_font">Usar la fuente predeterminada</string>
+    <string name="title_remove_google_account">Eliminar cuenta de Google</string>
+    <string name="title_remove_snapchat_accounts">Eliminar todas las cuentas de Snapchat</string>
+    <string name="title_saved_snaps">Snaps guardados</string>
+    <string name="title_search_hint">Toca para buscar stickers</string>
+    <string name="title_send_camera">Abrir cámara</string>
+    <string name="title_send_gallery">Elegir desde la galería</string>
+    <string name="title_session_authtoken">Sesión AuthToken</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="title_show_view_time">Hora de Snap/historia</string>
+    <string name="title_snapchat">Snapchat</string>
+    <string name="title_snapchat_session">Utilizar sesión de Snapchat (ROOT)</string>
+    <string name="title_snaps">Snaps</string>
+    <string name="title_storage">Almacenamiento</string>
+    <string name="title_stories">Historias</string>
+    <string name="title_story_stats">Estadísticas de la historia</string>
+    <string name="title_switch_account">Cambiar cuenta</string>
+    <string name="title_terms_of_use">Términos de uso</string>
+    <string name="title_text">Texto</string>
+    <string name="title_update">Actualizar</string>
+    <string name="title_updates">Actualizaciones</string>
+    <string name="title_updates_beta">Conseguir actualizaciones BETA</string>
+    <string name="title_updates_beta_summary">Si envío una actualización con funciones experimentales se te notificará como una actualización normal.</string>
+    <string name="title_username_hint">Nombre de usuario</string>
+    <string name="title_view_snaptag">Mi SnapTag</string>
+</resources>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">التنقل إلى الشاشة الرئيسية</string>
+    <string name="abc_action_bar_home_description_format">%1$s، %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s، %2$s، %3$s</string>
+    <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
+    <string name="abc_action_menu_overflow_description">خيارات إضافية</string>
+    <string name="abc_action_mode_done">تم</string>
+    <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
+    <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
+    <string name="abc_capital_off">إيقاف</string>
+    <string name="abc_capital_on">تشغيل</string>
+    <string name="abc_search_hint">بحث…</string>
+    <string name="abc_searchview_description_clear">محو طلب البحث</string>
+    <string name="abc_searchview_description_query">طلب البحث</string>
+    <string name="abc_searchview_description_search">بحث</string>
+    <string name="abc_searchview_description_submit">إرسال طلب البحث</string>
+    <string name="abc_searchview_description_voice">البحث الصوتي</string>
+    <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
+    <string name="abc_shareactionprovider_share_with_application">‏مشاركة مع %s</string>
+    <string name="abc_toolbar_collapse_description">تصغير</string>
+    <string name="action_accept_request">اضافة كصديق</string>
+    <string name="action_block_user">حظر المستخدم</string>
+    <string name="action_close_drawer">اغلاق الرسام</string>
+    <string name="action_delete_all_stories">حذف كل الحكايات</string>
+    <string name="action_delete_request">حذف الصديق</string>
+    <string name="action_delete_story">حذف هذه الحكاية</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_edit_display">تعديل الاسم</string>
+    <string name="action_logout">تسجيل الخروج</string>
+    <string name="action_mark_replayed">تعليم تم الرد</string>
+    <string name="action_mark_screenshot">تعليم تم تصوير الشاشة</string>
+    <string name="action_mark_viewed">تعليم تمت المشاهدة</string>
+    <string name="action_open_drawer">فتح الرسام</string>
+    <string name="action_reauth">اعادة مصادقة قوقل</string>
+    <string name="action_reply">رد</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_send_as_snap">ارسال كسناب</string>
+    <string name="action_send_snap">ارسال سناب</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_stats">الاحصائيات</string>
+    <string name="action_unblock_user">الغاء حظر المستخدم</string>
+    <string name="action_unfriend">ليس صديق</string>
+    <string name="button_add_friend">اضافة صديق</string>
+    <string name="button_agree">موافق</string>
+    <string name="button_buy_addon">شراء اضافة</string>
+    <string name="button_cancel">الغاء</string>
+    <string name="button_choose">اختيار</string>
+    <string name="button_close">اغلاق</string>
+    <string name="button_continue">استمرار</string>
+    <string name="button_decline">رفض</string>
+    <string name="button_download">تحميل</string>
+    <string name="button_having_trouble">هل تواجه مشكلة ؟</string>
+    <string name="button_later">لاحقا</string>
+    <string name="button_learn_more">اعرف المزيد</string>
+    <string name="button_no">لا</string>
+    <string name="button_ok">حسنا</string>
+    <string name="button_photo">صورة</string>
+    <string name="button_relaunch">إعادة التشغيل</string>
+    <string name="button_retry">اعادة المحاولة</string>
+    <string name="button_update">تحديث</string>
+    <string name="button_video">فيديو</string>
+    <string name="button_yes">نعم</string>
+    <string name="common_google_play_services_api_unavailable_text">‏يتطلب %1$s خدمة أو أكثر من خدمات Google Play والتي لا تتوفر حاليًا. يُرجى الاتصال بمطوّر البرامج للحصول على المساعدة.</string>
+    <string name="common_google_play_services_enable_button">‏تمكين خدمات Google Play</string>
+    <string name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تمكين خدمات Google Play.</string>
+    <string name="common_google_play_services_enable_title">‏تمكين خدمات Google Play</string>
+    <string name="common_google_play_services_install_button">‏الحصول على خدمات Google Play</string>
+    <string name="common_google_play_services_install_text_phone">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي لا تتوفر على هاتفك.</string>
+    <string name="common_google_play_services_install_text_tablet">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي لا تتوفر على جهازك اللوحي.</string>
+    <string name="common_google_play_services_install_title">‏الحصول على خدمات Google Play</string>
+    <string name="common_google_play_services_invalid_account_text">الحساب الذي تم تحديده غير موجود على الجهاز. الرجاء اختيار حساب آخر.</string>
+    <string name="common_google_play_services_invalid_account_title">حساب غير صالح</string>
+    <string name="common_google_play_services_network_error_text">‏يتطلب الاتصال بخدمات Google Play وجود اتصال بيانات.</string>
+    <string name="common_google_play_services_network_error_title">حدث خطأ في الشبكة</string>
+    <string name="common_google_play_services_notification_ticker">‏حدث خطأ في خدمات Google Play</string>
+    <string name="common_google_play_services_restricted_profile_text">لا تتوفر إمكانية الوصول إلى الحسابات من ملف شخصي مقيَّد.</string>
+    <string name="common_google_play_services_restricted_profile_title">ملف شخصي مقيَّد</string>
+    <string name="common_google_play_services_sign_in_failed_text">حدث خطأ أثناء تسجيل الدخول إلى الحساب المحدد. الرجاء اختيار حساب مختلف.</string>
+    <string name="common_google_play_services_sign_in_failed_title">أخفق تسجيل الدخول</string>
+    <string name="common_google_play_services_unknown_issue">‏تواجه %1$s مشكلة في خدمات Google Play. إذا ظلت المشكلة قائمة، فيُرجى الاتصال بمطوِّر البرامج للحصول على مساعدة.</string>
+    <string name="common_google_play_services_unsupported_text">‏يعتمد %1$s على خدمات Google Play والتي لا تتوافق مع جهازك. يمكنك الاتصال بجهة التصنيع للحصول على مساعدة.</string>
+    <string name="common_google_play_services_unsupported_title">‏خدمات Google Play</string>
+    <string name="common_google_play_services_update_button">تحديث</string>
+    <string name="common_google_play_services_update_text">‏لن يتم تشغيل %1$s ما لم يتم تحديث خدمات Google Play.</string>
+    <string name="common_google_play_services_update_title">‏تحديث خدمات Google Play</string>
+    <string name="common_google_play_services_updating_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي يتم تحديثها حاليًا.</string>
+    <string name="common_google_play_services_updating_title">‏يتم الآن تحديث خدمات Google Play.</string>
+    <string name="common_google_play_services_wear_update_text">‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا.</string>
+    <string name="common_open_on_phone">فتح على الهاتف</string>
+    <string name="common_signin_button_text">تسجل الدخول</string>
+    <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
+    <string name="error_chat_friend_fail">لا يمكنك الدردشة مع هذا المستخدم.</string>
+    <string name="error_chat_gateway_error">فشل في الإتصال بخدمة الدردشة!</string>
+    <string name="error_file_not_found">لم يتم العثور على الملف!</string>
+    <string name="error_file_not_usable">لا يمكن إستخدام هذا الملف</string>
+    <string name="error_file_web_not_usable">لا يمكن استخدام ملفات الإنترنت</string>
+    <string name="error_image">فشل فك ترميز الصورة</string>
+    <string name="error_imoji_load_failed">فشل في تنزيل Imoji</string>
+    <string name="error_media_size_rejected">سناب شات رفض ملف الوسائط لأنه كبير ، تحتاج إلى تصغير الحجم بتطبيق ضغط.</string>
+    <string name="hint_auth_token_snapchat">رمز مصادقة سناب شات</string>
+    <string name="hint_email_google">بريد قوقل</string>
+    <string name="hint_password_google">كلمة مرور بريد قوقل</string>
+    <string name="hint_password_snapchat">كلمة مررو حساب السناب شات</string>
+    <string name="hint_username_snapchat">اسم المستخدم للسناب شات</string>
+    <string name="info_about_imoji">"الملصقات التي هنا كلها مدعومة من خلال API العام ل Imoji
+
+يمكنك انشاء Emoji خاص بك ومن ثم البحث عنها هنا
+
+هل تريد الحصول على تطبيق ال Emoji من متجر بلاي ؟"</string>
+    <string name="info_account_already_added">تم تسجيل دخول الحساب بالفعل ، جاري التبديل له.</string>
+    <string name="info_action_failed">فشل ، حاول مجددًا في وقت لاحق.</string>
+    <string name="info_addon_multiple_accounts">"هذه ميزة إضافية.
+
+ستمكنك من تسجيل الدخول بعدة حسابات ، وتعطيك سرعة في التبديل بينها .
+
+هل تود شراء هذه الميزة ؟"</string>
+    <string name="info_addons_relaunch_required">"الحساب :
+%1$s
+
+الإضافات التي تم شراءها:
+%2$s
+
+هل تريد إعادة تشغيل كاسبر الأن؟"</string>
+    <string name="info_authenticating">جاري المصادقة</string>
+    <string name="info_authenticating_chat">جاري المصادقة مع الدردشة</string>
+    <string name="info_change_font">لتغيير خط التعليقات اضغط على الثلاث نقاط ثم أختر ( تغيير الخط ) في شريط أدوات التعليقات.</string>
+    <string name="info_chat_unstable">"ميزة الدردشة غير مستقرة للغاية.
+
+يمكنك إستقبال رسائل والرد عليها نصيًا.
+
+الوسائط المستقبلة سوف يتم فتحها تلقائيًا حينما يتم إستقبالها.
+
+سوف أجعلها بشكل أنيق في وقت لاحق."</string>
+    <string name="info_clear_drawing">هل تريد مسح الرسومات؟</string>
+    <string name="info_clear_stickers">هل تريد مسح الملصقات؟</string>
+    <string name="info_conversation_empty">المحادثة فارغة</string>
+    <string name="info_copied_clipboard">تم نسخ رمز المصادقة إلى الحافظة</string>
+    <string name="info_default_camera">"كاسبر لديه واجهة كاميرا خاصة به ( إختبارية وقيد التطوير ).
+
+ربما لن تعمل نهائيًا على جهازك.
+
+بإمكانك التبديل بن كاميرا كاسبر وتطبيقات الكاميرا المثبتة لديك من الإعدادات."</string>
+    <string name="info_delete_emoji_pack">هل تريد حذف حزمة Emoji ؟</string>
+    <string name="info_delete_stories">هل تريد حذف كل حكاياتك؟</string>
+    <string name="info_delete_story">هل تريد حذف هذه الحكاية؟</string>
+    <string name="info_deleted">تم الحذف</string>
+    <string name="info_deleting">جاري الحذف</string>
+    <string name="info_device_gallery_intent_error">تعدد الوسائط ليس مدعومًا ، ما نوع الوسائط التي أخترتها ؟</string>
+    <string name="info_disable_notifications_snapchat_session">تم تعطيل إشعارات كاسبر ، السناب شات سيفور الإشعارات في الوقت الفعلي.</string>
+    <string name="info_download_emoji_apple">هل تريد تحميل حزمة Emoji آبل ؟</string>
+    <string name="info_download_emoji_google">هل تريد تحميل حزمة Emoji قوقل ؟</string>
+    <string name="info_download_first">قم بتنزيل خط لإستخدامه!</string>
+    <string name="info_download_fonts">قم بتنزيل بعض الخطوط أولًا!</string>
+    <string name="info_downloaded">تم التحميل</string>
+    <string name="info_downloading_emoji_pack">جاري تنزيل حزم إيموجي..</string>
+    <string name="info_downloading_font">جاري تنزيل الخط</string>
+    <string name="info_downloading_update">جاري تحميل التحديث</string>
+    <string name="info_facebook_and_updates">"كاسبر ليس متاحًا على متجر قوقل لذا سوف يتطلب تحديثات يدوية.
+
+كاسبر سوف يتحقق من التحديثات تلقائيًا وسيطالبك بالتثبيت.
+
+رجاء ثانية من وقتك لتضع إعجاب بصفحة كاسبر على الفيسبوك ليكون بإمكانك تلقي ملاحظات هامة ."</string>
+    <string name="info_failed_tap_retry">فشل التنزيل ، اضغط للمحاولة مجددًا</string>
+    <string name="info_fetching_preview">جاري جلب المعاينة...</string>
+    <string name="info_font_downloaded">تم تحميل الخط</string>
+    <string name="info_font_preview_failed">فشل في جلب المعاينة</string>
+    <string name="info_forward_video_caption">هل تريد الحفاظ على الرسم والتعليق على هذا الفيديو المحال؟</string>
+    <string name="info_friend_mutual_request">أنتم بالفعل أصدقاء ، أو أن الطلب معلق.</string>
+    <string name="info_google_reauth">هذا سيبطل رمز قوقل المحلي وسيجبرك على إعادة المصادقة</string>
+    <string name="info_hold_snap_reply">الضغط المطول يجعل المرسل كمتلقي للسناب التالية التي سترسلها ، لعرض السناب فقط اضغط مره واحدة .</string>
+    <string name="info_invalid_auth_token">تم رفع اسم المستخدم + رمز المصادقة.</string>
+    <string name="info_loading">جاري التحميل</string>
+    <string name="info_loading_fonts">جاري تحميل الخطوط</string>
+    <string name="info_loading_imoji">جاري احضار الملصق</string>
+    <string name="info_logged_out">%1$s تم تسجيل خروج</string>
+    <string name="info_login_credentials_blank">بيانات الدخول مطلوبة .</string>
+    <string name="info_login_credentials_google_blocked">"تم حجب محاولة تسجيل الدخول الخاصة بك من قبل قوقل.
+
+إذا استمر هذا الوضع بالحدوث رجاء اضغط \" اعرف المزيد \""</string>
+    <string name="info_login_credentials_google_incorrect">"البريد أو كلمة المرور المدخلة غير صحيحة.
+
+لو كانت صحيحة ، ربما قمت بتفعيل التحقق بخطوتين لذا عليك إنشاء كلمة مرور مخصصة .
+
+رجاء حاول مجددًا"</string>
+    <string name="info_login_error">"لايمكن تسجيل الدخول حاليا الرجاء المحاولة مجددا
+
+تفاصيل اضافية:
+%1$s"</string>
+    <string name="info_login_google">لتجاوز حظر سناب شات للطرف الثالث ، يحتاج كاسبر حساب قوقل صالحًا للمصادقة ، رجاء اضغط ( أعرف المزيد ) لمزيد من المعلومات.</string>
+    <string name="info_login_snapchat">يتم إرسال بيانات حساب سناب شات لخوادمهم فقط ، ويتم تخزينها محليًا على هذا الجهاز . رجاء اضغط ( اعرف المزيد ) لمزيد من المعلومات.</string>
+    <string name="info_login_step_1">1/2 خطوات تسجيل الدخول</string>
+    <string name="info_login_step_1_google">مصادقة قوقل</string>
+    <string name="info_login_step_2">2/2 خطوات تسجيل الدخول</string>
+    <string name="info_login_step_2_snapchat">مصادقة سناب شات</string>
+    <string name="info_logout_server">هل تريد تسجيل الخروج من خادم سناب شات أيضًا ؟ سيتسسب بتسجيل خروجك من تطبيق سناب شات لو تستخدم نفس الجلسة.</string>
+    <string name="info_lose_snap">هل تريد الخروج ؟ سوف تفقد السناب الخاصة بك</string>
+    <string name="info_marking_screenshot">تعليم كـ تم لقط الشاشة!</string>
+    <string name="info_marking_viewed">تعليم بـ تمت مشاهدتها!</string>
+    <string name="info_media_downloading">جاري التحميل</string>
+    <string name="info_must_agree">يجب عليك الموافقة لإستخدام Casper</string>
+    <string name="info_new_snap">%1$s سناب جديدة من</string>
+    <string name="info_no_addons_purchased">لم يتم شراء أي إضافات</string>
+    <string name="info_no_chat">"الدردشة ليست متاحة في كاسبر .
+
+خططت لإضافتها ولكن خلال هذه الفترة لا استطيع .
+
+في الوقت الحالي سيتوجب عليك استخدام التطبيق الرسمي."</string>
+    <string name="info_no_fonts">لا توجد خطوط متاحة</string>
+    <string name="info_no_friends">لا يوجد أصدقاء!</string>
+    <string name="info_no_friends_requests">لا توجد طلبات صداقة!</string>
+    <string name="info_no_snaps">لا توجد سنابات!</string>
+    <string name="info_no_stories">لا توجد حكايات!</string>
+    <string name="info_no_story_views">لا أحد شاهد هذه الحكاية!</string>
+    <string name="info_no_updates">"لا توجد تحديثات متاحة
+%1$s الإصدار الحالي"</string>
+    <string name="info_no_updates_beta">"لا توجد تحديثات لإصدارات تجريبة
+%1$s الإصدار الحالي"</string>
+    <string name="info_one_moment">لحظة من فضلك</string>
+    <string name="info_processing_friends">جاري مزامنة الأصدقاء</string>
+    <string name="info_processing_image">جاري معالجة الصورة</string>
+    <string name="info_processing_thumbnail">جاري إنشاء صورة مصغرة للفيديو</string>
+    <string name="info_processing_zip">جاري إعداد ملف الإرشيف</string>
+    <string name="info_provide_details_google_first">الرجاء تسجيل الدخول بحساب قوقل اولا</string>
+    <string name="info_reading_snapchat_session">جاري قراءة جلسة سناب شات</string>
+    <string name="info_recipients_limit">حددت الكثير من المتلقين، سيتم الإرسال لأول 200 فقط!</string>
+    <string name="info_refreshing_snaps">جاري تحديث السنابز</string>
+    <string name="info_reply_snap">ألتقط أو أختر سناب للرد إلى .</string>
+    <string name="info_saved">تم الحفظ</string>
+    <string name="info_select_font">في أول مره تنزل الخط قم بالضغط عليه لإستخدامه.</string>
+    <string name="info_select_recipients">أختر على الأقل متلقي واحد</string>
+    <string name="info_send_friend_snap">ألتقط أو أختر سناب للإرسال.</string>
+    <string name="info_sending_to_recipients">جاري الإرسال إلى المتلقين</string>
+    <string name="info_sent">تم إرسال السناب!</string>
+    <string name="info_share_via_casper">"إذا لم تتمكن من إختيار فيديو لسبب ما ، أختر مشاركة بواسطة كاسبر.
+
+أفتح تطبيق الأستوديو واختر الفيديو ثم أختر أيقونة المشاركة
+
+ثم اختر كاسبر من قائمة المشاركة."</string>
+    <string name="info_snap_cached">تم إيجاد سناب في الذاكرة المؤقتة</string>
+    <string name="info_snap_sent">تم إرسال السناب!</string>
+    <string name="info_snapchat_session_not_available">"يبدو أنك لم تسجل الدخول إلى سناب شات.
+
+قم بتسجيل الدخول إلى سناب شات لإستخدام هذه الميزة."</string>
+    <string name="info_snapchat_session_not_found">"كاسبر لا يستطيع قراءة بيانات جلسة السناب شات.
+
+هذا بسبب أن جهازك ليس به صلاحيات الروت أو أن كاسبر لا يستطيع الحصول على ملف الجلسة.
+
+:'("</string>
+    <string name="info_snapchat_session_root">"لو تتفور بجهازك صلاحيات الروت بإمكان كاسبر الدخول إلى نفس الجلسة مثل تطبيق سناب شات.
+
+ستكون قدرًا على أرسال السنابز من السناب شات ثم تفتح الكاسبر لحفظ السنابز بدون تسجيل الخروج من أي تطبيق.
+
+تسجيل الخروج من تطبيق واحد سيجعل التطبيقين تسجل خروج."</string>
+    <string name="info_snaptag_download_failed">فشل في تنزيل السناب المعلمة!</string>
+    <string name="info_stats">"%1$d : النقاط
+%2$d : المُرْسل
+%3$d : المُسْتلم
+%4$d : الأصدقاء"</string>
+    <string name="info_stories_empty">لا توجد حكايات متوفرة</string>
+    <string name="info_tos">قبل استخدام التطبيق يجب عليك الموافقة على &lt;a href=%1$s>شروط الاستخدام&lt;/a></string>
+    <string name="info_update_available">"يوجد تحديث ل Casper
+
+من الأفضل ان تقوم بالتحديث
+
+التحديث يأخذ القليل من الوقت، هل تريد التحديث؟"</string>
+    <string name="info_update_failed_manually_retry">هل فشل تنزيل التحديث ؟ إذهب إلى صفحة التنزيل اليدوي</string>
+    <string name="info_uploading_to_snapchat">جاري الرفع للسناب شات</string>
+    <string name="info_username_auth_token">يرجى تقديم اسم المستخدم مع رمز المصادقة.</string>
+    <string name="info_video_error_reopen">"بعض وسائط الفيديو ترفض التشغيل من المرة الأولى.
+
+أختر ( حسنًا ) للمحاولة مجددًا.
+
+"</string>
+    <string name="info_video_too_large">"حجم الفيديو المحدد أكبر من 5 ميجابايت
+
+سناب شات لن يقبله.
+
+استخدم تطبيق لضغط الفيديو وتقليل حجمه.
+
+%1$s : حجم الملف المحدد"</string>
+    <string name="info_view_snap_hide_toolbars">اضغط على الصورة أو الفيديو للمشاهدة وإخفاء شريط الأدوات.</string>
+    <string name="info_viewed_icon">"هذه الأيقونة تعني أنك قمت بتعليم هذه الحكاية بتمت مشاهدتها.
+
+سوف تظهر بعد التحديث إذا كنت قد علمت الحكاية بتمت مشاهدتها."</string>
+    <string name="item_media_deleted">هذه الحكاية تم حذفها!</string>
+    <string name="item_media_time_downloading">%1$s - جاري تنزيل</string>
+    <string name="item_media_time_reply">%1$s - اضغط مطولًا للرد</string>
+    <string name="item_media_time_tap_download">%1$s - اضغط لتنزيل</string>
+    <string name="item_media_time_tap_view">%1$s - اضغط لمشاهدة</string>
+    <string name="place_autocomplete_clear_button">مسح البحث</string>
+    <string name="place_autocomplete_search_hint">البحث</string>
+    <string name="status_bar_notification_info_overflow">+999</string>
+    <string name="title_about">حول</string>
+    <string name="title_about_version">الإصدار</string>
+    <string name="title_about_version_summary">V%1$s</string>
+    <string name="title_account_stats">احصائيات الحساب</string>
+    <string name="title_add_account">اضافة حساب سناب شات</string>
+    <string name="title_addons">الإضافات</string>
+    <string name="title_announcements">الإعلانات الاخيرة</string>
+    <string name="title_auto_mark_viewed">تعليم تلقائي بـ تمت المشاهدة</string>
+    <string name="title_auto_mark_viewed_snaps_open">حينما يتم فتح السنابز</string>
+    <string name="title_auto_mark_viewed_stories_open">حينما يتم فتح الحكايات</string>
+    <string name="title_auto_save_sent_snaps">حفظ السناب المرسلة</string>
+    <string name="title_auto_save_snaps">حفظ السنابز بعد التنزيل</string>
+    <string name="title_auto_save_snaps_open">حفظ السنابز عند الفتح</string>
+    <string name="title_auto_save_stories">حفظ الحكايات بعد التنزيل</string>
+    <string name="title_auto_save_stories_open">حفظ الحكايات عند الفتح</string>
+    <string name="title_auto_saving">الحفظ التلقائي</string>
+    <string name="title_background">الخلفية</string>
+    <string name="title_camera">الكاميرا</string>
+    <string name="title_casper_login">تسجيل دخول Casper</string>
+    <string name="title_change_colour">تغيير اللون</string>
+    <string name="title_change_font">تغيير الخط</string>
+    <string name="title_chat">المحادثة</string>
+    <string name="title_check_purchases">التحقق من المشتريات</string>
+    <string name="title_check_update">التحقق من التحديثات</string>
+    <string name="title_choose_account">اختيار حساب</string>
+    <string name="title_choose_recipients">اختيار المستلمين</string>
+    <string name="title_confirm_action">تأكيد</string>
+    <string name="title_conversation">المحادثة</string>
+    <string name="title_credentials">بيانات الحسابات</string>
+    <string name="title_default_camera">الكاميرا الإفتراضية</string>
+    <string name="title_default_camera_summary">إختيار كاميرا للتشغيل عندما تضغط رمز الكاميرا للتصوير.</string>
+    <string name="title_display">عرض</string>
+    <string name="title_emoji_apple">Emoji أبل</string>
+    <string name="title_emoji_google">Emoji قوقل</string>
+    <string name="title_enable_notifications">تفعيل</string>
+    <string name="title_error_occurred">عذرا!</string>
+    <string name="title_facebook">فيس بوك</string>
+    <string name="title_follow_me">قم بمتابعتي</string>
+    <string name="title_fonts">الخطوط</string>
+    <string name="title_friends">الأصدقاء</string>
+    <string name="title_friends_requests">طلبات الأصدقاء</string>
+    <string name="title_get_addons">الحصول على الإضافات</string>
+    <string name="title_get_addons_ads">ازالة الإعلانات</string>
+    <string name="title_google">قوقل</string>
+    <string name="title_help">المساعدة</string>
+    <string name="title_hide_viewer_toolbar">إخفاء شريط أدوات العرض</string>
+    <string name="title_hide_viewer_toolbar_summary">إخفاء شريط الأدوات عندما تفتح السناب ( اضغط لعرض الشرط )</string>
+    <string name="title_imoji">الملصقاات من Imoji</string>
+    <string name="title_imoji_about">حول ال Emoji</string>
+    <string name="title_info">معلومات</string>
+    <string name="title_instagram">انستقرام</string>
+    <string name="title_knowledge_base">الاساسيات</string>
+    <string name="title_manage_accounts">اضافة حساب</string>
+    <string name="title_managers">المدراء</string>
+    <string name="title_media_clear_cache">مسح البيانات المؤقتة</string>
+    <string name="title_media_clear_cache_summary">مسح الملفات المؤقتة وإعادة التشغيل.</string>
+    <string name="title_media_folder">مسار كاسبر</string>
+    <string name="title_media_folder_summary">"قمت بإختيار :
+%1$s
+
+هنا سيتم تخزين الملفات المحفوظة والمنزّلة.
+
+كاسبر سوف ينشيء مجلدات أخرى في هذا المسار.
+
+تجنب إستخدام ذاكرة خارجية ، لأنه إذا أزلتها سوف يعود التطبيق للحفظ في المجلد الإفتراضي.
+
+وكل السنابز المحفوظة لن يتم نقلها لهذا المجلد الجديد.
+
+هل تريد إعادة تشغيل التطبيق لتطبيق التغيرات ؟"</string>
+    <string name="title_message_hint">ارسال محادثة</string>
+    <string name="title_my_stories">حكاياتي</string>
+    <string name="title_notifications">الإشعارات</string>
+    <string name="title_notifications_interval">التحقق الزمني</string>
+    <string name="title_notifications_interval_summary">الفاصل الزمني هو للتحقق من السنابز الجديدة ، هو مدة زمنية عشوائية ( بين 0 و 15 دقيقة ) تتم تلقائيًا ليبدو كأن استخدامك نظامي لخوادم سناب شات ، على سبيل المثال إختيار 15 دقيقة سوف يتم التحقق من السنابز الجديدة في أي وقت بين 15 - 30 دقيقة.</string>
+    <string name="title_or">أو</string>
+    <string name="title_other">أخرى</string>
+    <string name="title_other_auto_download_stories">تحميل تلقائي للحكايات</string>
+    <string name="title_other_blackberry_mode">نمط البلاك بيري</string>
+    <string name="title_other_blackberry_mode_summary">فعّل هذه لو كنت تستخدم جهاز بلاك بيري.</string>
+    <string name="title_remember_google">تذكر بيانات حساب قوقل</string>
+    <string name="title_remember_password">تذكر كلمة مرور السناب شات</string>
+    <string name="title_remember_password_summary">ملئ تلقائي لكلمة المرور بعد تسجيل الخروج من خوادم سناب شات</string>
+    <string name="title_remove_font">استخدام الخط الافتراضي</string>
+    <string name="title_remove_google_account">ازالة حساب قوقل</string>
+    <string name="title_remove_snapchat_accounts">ازالة جميع حسابات سناب شات</string>
+    <string name="title_saved_snaps">السنابات المحفوظة</string>
+    <string name="title_search_hint">اضغط للبحث عن ملصقات</string>
+    <string name="title_send_camera">تصفح الكاميرا</string>
+    <string name="title_send_gallery">الاختيار من الاستديو</string>
+    <string name="title_session_authtoken">رمز مصادقة الجلسة</string>
+    <string name="title_settings">الاعدادات</string>
+    <string name="title_show_view_time">وقت السناب أو الحكاية</string>
+    <string name="title_snapchat">سناب شات</string>
+    <string name="title_snapchat_session">استخدام جلسة سناب شات (روت)</string>
+    <string name="title_snaps">السنابات</string>
+    <string name="title_storage">التخزين</string>
+    <string name="title_stories">الحكايات</string>
+    <string name="title_story_stats">احصائيات الحكاية</string>
+    <string name="title_switch_account">تبديل الحسابات</string>
+    <string name="title_terms_of_use">شروط الاستخدام</string>
+    <string name="title_text">النص</string>
+    <string name="title_update">التحديث</string>
+    <string name="title_updates">التحديثات</string>
+    <string name="title_updates_beta">احصل على تحديثات النسخ التجريبية</string>
+    <string name="title_updates_beta_summary">لو قمت أنا بإرسال تحديث بميزات تجريبية سيتم إشعارك تمامًا مثل التحديث العادي.</string>
+    <string name="title_username_hint">اسم المستخدم</string>
+    <string name="title_view_snaptag">سناباتي المعلمة</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_send_snap" android:title="@string/action_send_snap" />
+    <item android:id="@id/action_edit_display" android:title="@string/action_edit_display" />
+    <item android:id="@id/action_unfriend" android:title="@string/action_unfriend" />
+    <item android:id="@id/action_accept_request" android:title="@string/action_accept_request" />
+    <item android:id="@id/action_delete_request" android:title="@string/action_delete_request" />
+    <item android:id="@id/action_block_user" android:title="@string/action_block_user" />
+    <item android:id="@id/action_unblock_user" android:title="@string/action_unblock_user" />
+</menu>

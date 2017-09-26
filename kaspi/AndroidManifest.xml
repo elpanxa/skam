@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="io.casper.android" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <permission android:name="io.casper.android.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+    <uses-permission android:name="io.casper.android.permission.MAPS_RECEIVE"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <permission android:name="android.permission.FLASHLIGHT" android:permissionGroup="android.permission-group.HARDWARE_CONTROLS" android:protectionLevel="normal"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_casper_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="io.casper.android.CasperApplication" android:theme="@style/Casper">
+        <activity android:label="@string/app_name" android:name="io.casper.android.activity.LaunchActivity" android:theme="@style/Casper.Splash" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="io.casper.android.activity.MainActivity" android:theme="@style/Casper.TransparentStatusBar"/>
+        <activity android:label="@string/title_casper_login" android:name="io.casper.android.activity.GoogleLoginActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/title_casper_login" android:name="io.casper.android.activity.SnapchatLoginActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/title_account_stats" android:name="io.casper.android.activity.AccountStatisticsActivity"/>
+        <activity android:name="io.casper.android.camera.CameraActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity android:label="@string/title_conversation" android:name="io.casper.android.activity.ConversationActivity"/>
+        <activity android:label="@string/title_my_stories" android:name="io.casper.android.activity.MyStoriesActivity"/>
+        <activity android:label="@string/title_stories" android:name="io.casper.android.activity.FriendStoriesActivity"/>
+        <activity android:label="@string/title_fonts" android:name="io.casper.android.activity.FontsActivity"/>
+        <activity android:label="@string/title_emoji_apple" android:name="io.casper.android.activity.EmojiAppleActivity"/>
+        <activity android:label="@string/title_emoji_google" android:name="io.casper.android.activity.EmojiGoogleActivity"/>
+        <activity android:name="io.casper.android.activity.ViewerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="io.casper.android.activity.SnapTagActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:label="@string/title_choose_recipients" android:name="io.casper.android.activity.SendActivity"/>
+        <activity android:label="@string/title_settings" android:name="io.casper.android.activity.OldSettingsActivity"/>
+        <activity android:label="@string/title_settings" android:name="io.casper.android.activity.SettingsActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="io.casper.android.activity.EditorActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/title_updates" android:name="io.casper.android.activity.UpdatesActivity"/>
+        <activity android:label="@string/title_chat" android:name="io.casper.android.activity.ChatActivity"/>
+        <activity android:label="@string/title_imoji" android:name="io.casper.android.activity.ImojiActivity"/>
+        <activity android:name="io.casper.android.activity.SwipeStoriesActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_choose_location" android:name="io.casper.android.activity.LocationPickerActivity"/>
+        <activity android:label="@string/title_story_privacy" android:name="io.casper.android.activity.FriendChooserActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_saved_snaps" android:name="io.casper.android.activity.SavedSnapsActivity"/>
+        <activity android:label="@string/title_saved_snaps" android:name="io.casper.android.activity.UsernameSavedSnapsActivity"/>
+        <activity android:name="io.casper.android.activity.SwipeUsernameSavedSnapActivity"/>
+        <service android:name="io.casper.android.service.BackgroundUploadIntentService"/>
+        <service android:name="io.casper.android.notifications.NotificationIntentService"/>
+        <receiver android:name="io.casper.android.notifications.AlarmManagerBroadcastReceiver">
+            <intent-filter>
+                <action android:name="io.casper.android.INTENT_START_NOTIFICATION_SCHEDULE"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="83702a2c1e7876cba6433fb2d1725a8f654ad045"/>
+        <receiver android:enabled="true" android:name="com.google.android.gms.analytics.AnalyticsReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <receiver android:exported="true" android:name="com.google.android.gms.analytics.CampaignTrackingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBsNoL_GFc3PEqTLboaWYt2A1SwtWva6y4"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.adsdk.sdk.banner.InAppWebView"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:hardwareAccelerated="false" android:name="com.adsdk.sdk.video.RichMediaActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.adsdk.sdk.mraid.MraidBrowser"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.revmob.ads.fullscreen.FullscreenActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="com.startapp.android.publish.list3d.List3DActivity" android:theme="@android:style/Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.startapp.android.publish.OverlayActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.startapp.android.publish.FullScreenActivity" android:theme="@android:style/Theme"/>
+        <activity android:name="com.avocarrot.androidsdk.RedirectActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.MoPubActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.MraidActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.common.MoPubBrowser"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.MraidVideoPlayerActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.supersonicads.sdk.controller.ControllerActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.supersonicads.sdk.controller.InterstitialActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.supersonicads.sdk.controller.OpenUrlActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme"/>
+    </application>
+</manifest>

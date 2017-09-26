@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/rootview" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <VideoView android:layout_gravity="center" android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/canvasFrame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+        <android.support.v4.view.ViewPager android:id="@id/filterPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/drawingFrame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/stickerFrame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/captionFrame" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <HorizontalScrollView android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/captionButton" android:src="@drawable/ic_abc" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/drawingButton" android:src="@drawable/ic_brush" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/rotateButton" android:src="@drawable/ic_rotate_right" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/stretchButton" android:src="@drawable/ic_expand" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/stickerButton" android:src="@drawable/ic_emoticon" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/flipHorizontalButton" android:src="@drawable/ic_swap_horizontal" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/flipVerticalButton" android:src="@drawable/ic_swap_vertical" style="@style/Casper.EditorToolbarItem" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.Toolbar android:id="@id/captionToolbar" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/exitCaptionButton" android:src="@drawable/ic_abc_green" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/typeCaptionButton" android:src="@drawable/ic_0" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/rotateCaptionButton" android:src="@drawable/ic_rotate_right" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/palleteCaptionButton" android:src="@drawable/ic_palette" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/resizeCaptionButton" android:src="@drawable/ic_plus_minus" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/increaseCaptionButton" android:src="@drawable/ic_plus" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/decreaseCaptionButton" android:src="@drawable/ic_minus" style="@style/Casper.EditorToolbarItem" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.Toolbar android:id="@id/drawingToolbar" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/exitDrawingButton" android:src="@drawable/ic_brush_green" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/palleteDrawingButton" android:src="@drawable/ic_palette" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/undoDrawingButton" android:src="@drawable/ic_undo" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/redoDrawingButton" android:src="@drawable/ic_redo" style="@style/Casper.EditorToolbarItem" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.Toolbar android:id="@id/stickerToolbar" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/exitStickerButton" android:src="@drawable/ic_emoticon_green" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/addAndroidEmojiButton" android:src="@drawable/ic_android" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/addAppleEmojiButton" android:src="@drawable/ic_apple" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/addTwitterEmojiButton" android:src="@drawable/ic_twitter" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/addImojiButton" android:src="@drawable/imoji_logo_48" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/removeStickerButton" android:src="@drawable/ic_undo" style="@style/Casper.EditorToolbarItem" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/captionSizeContainer" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize">
+            <SeekBar android:layout_gravity="center" android:id="@id/captionSizeSeekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <android.support.v7.widget.Toolbar android:id="@id/filtersToolbar" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:contentInsetStart="0.0dip" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
+                        <ImageView android:id="@id/noneFilterButton" android:background="?android:selectableItemBackground" android:layout_width="90.0dip" android:layout_height="90.0dip" style="@style/Casper.EditorToolbarItem" />
+                        <TextView android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="None" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
+                        <ImageView android:id="@id/instasnapFilterButton" android:background="?android:selectableItemBackground" android:layout_width="90.0dip" android:layout_height="90.0dip" style="@style/Casper.EditorToolbarItem" />
+                        <TextView android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="InstaSnap" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
+                        <ImageView android:id="@id/bwFilterButton" android:background="?android:selectableItemBackground" android:layout_width="90.0dip" android:layout_height="90.0dip" style="@style/Casper.EditorToolbarItem" />
+                        <TextView android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BW" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
+                        <ImageView android:id="@id/sepiaFilterButton" android:background="?android:selectableItemBackground" android:layout_width="90.0dip" android:layout_height="90.0dip" style="@style/Casper.EditorToolbarItem" />
+                        <TextView android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sepia" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
+                        <ImageView android:id="@id/invertFilterButton" android:background="?android:selectableItemBackground" android:layout_width="90.0dip" android:layout_height="90.0dip" style="@style/Casper.EditorToolbarItem" />
+                        <TextView android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Invert" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
+                        <ImageView android:id="@id/sketchFilterButton" android:background="?android:selectableItemBackground" android:layout_width="90.0dip" android:layout_height="90.0dip" style="@style/Casper.EditorToolbarItem" />
+                        <TextView android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sketch" />
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </android.support.v7.widget.Toolbar>
+        <android.support.v7.widget.Toolbar android:id="@id/bottomToolbar" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip">
+                <ImageButton android:id="@id/showFiltersButton" android:src="@drawable/ic_image_filter_bw" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/chooseLocationButton" android:src="@drawable/ic_earth" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/timeButton" android:src="@drawable/ic_clock" style="@style/Casper.EditorToolbarItem" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/timeText" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="-5.0dip" android:text="10" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/saveButton" android:src="@drawable/ic_download" style="@style/Casper.EditorToolbarItem" />
+                <ImageButton android:id="@id/sendButton" android:src="@drawable/ic_send" style="@style/Casper.EditorToolbarItem" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fragmentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

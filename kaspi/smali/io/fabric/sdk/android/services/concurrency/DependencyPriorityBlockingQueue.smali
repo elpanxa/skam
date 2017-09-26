@@ -1,0 +1,1045 @@
+.class public Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;
+.super Ljava/util/concurrent/PriorityBlockingQueue;
+.source "DependencyPriorityBlockingQueue.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E::",
+        "Lio/fabric/sdk/android/services/concurrency/Dependency;",
+        ":",
+        "Lio/fabric/sdk/android/services/concurrency/Task;",
+        ":",
+        "Lio/fabric/sdk/android/services/concurrency/PriorityProvider;",
+        ">",
+        "Ljava/util/concurrent/PriorityBlockingQueue",
+        "<TE;>;"
+    }
+.end annotation
+
+
+# static fields
+.field static final PEEK:I = 0x1
+
+.field static final POLL:I = 0x2
+
+.field static final POLL_WITH_TIMEOUT:I = 0x3
+
+.field static final TAKE:I
+
+
+# instance fields
+.field final blockedQueue:Ljava/util/Queue;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Queue",
+            "<TE;>;"
+        }
+    .end annotation
+.end field
+
+.field private final lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .prologue
+    .line 41
+    invoke-direct {p0}, Ljava/util/concurrent/PriorityBlockingQueue;-><init>()V
+
+    .line 37
+    new-instance v0, Ljava/util/LinkedList;
+
+    invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
+
+    iput-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    .line 42
+    new-instance v0, Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
+
+    iput-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    .line 43
+    return-void
+.end method
+
+
+# virtual methods
+.method canProcess(Lio/fabric/sdk/android/services/concurrency/Dependency;)Z
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TE;)Z"
+        }
+    .end annotation
+
+    .prologue
+    .line 231
+    invoke-interface {p1}, Lio/fabric/sdk/android/services/concurrency/Dependency;->areDependenciesMet()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public clear()V
+    .locals 2
+
+    .prologue
+    .line 148
+    :try_start_0
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
+
+    .line 149
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v0}, Ljava/util/Queue;->clear()V
+
+    .line 150
+    invoke-super {p0}, Ljava/util/concurrent/PriorityBlockingQueue;->clear()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 152
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    .line 154
+    return-void
+
+    .line 152
+    :catchall_0
+    move-exception v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    throw v0
+.end method
+
+.method concatenate([Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">([TT;[TT;)[TT;"
+        }
+    .end annotation
+
+    .prologue
+    const/4 v4, 0x0
+
+    .line 255
+    array-length v1, p1
+
+    .line 256
+    array-length v2, p2
+
+    .line 259
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
+
+    move-result-object v0
+
+    add-int v3, v1, v2
+
+    invoke-static {v0, v3}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Ljava/lang/Object;
+
+    check-cast v0, [Ljava/lang/Object;
+
+    .line 261
+    invoke-static {p1, v4, v0, v4, v1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    .line 262
+    invoke-static {p2, v4, v0, v1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    .line 264
+    return-object v0
+.end method
+
+.method public contains(Ljava/lang/Object;)Z
+    .locals 2
+
+    .prologue
+    .line 138
+    :try_start_0
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
+
+    .line 139
+    invoke-super {p0, p1}, Ljava/util/concurrent/PriorityBlockingQueue;->contains(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v0, p1}, Ljava/util/Queue;->contains(Ljava/lang/Object;)Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    :cond_0
+    const/4 v0, 0x1
+
+    .line 141
+    :goto_0
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    return v0
+
+    .line 139
+    :cond_1
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    .line 141
+    :catchall_0
+    move-exception v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    throw v0
+.end method
+
+.method public drainTo(Ljava/util/Collection;)I
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Collection",
+            "<-TE;>;)I"
+        }
+    .end annotation
+
+    .prologue
+    .line 109
+    :try_start_0
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
+
+    .line 110
+    invoke-super {p0, p1}, Ljava/util/concurrent/PriorityBlockingQueue;->drainTo(Ljava/util/Collection;)I
+
+    move-result v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v1}, Ljava/util/Queue;->size()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    .line 111
+    :goto_0
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v1}, Ljava/util/Queue;->isEmpty()Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    .line 112
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v1}, Ljava/util/Queue;->poll()Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    goto :goto_0
+
+    .line 116
+    :catchall_0
+    move-exception v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    throw v0
+
+    :cond_0
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    return v0
+.end method
+
+.method public drainTo(Ljava/util/Collection;I)I
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Collection",
+            "<-TE;>;I)I"
+        }
+    .end annotation
+
+    .prologue
+    .line 123
+    :try_start_0
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
+
+    .line 124
+    invoke-super {p0, p1, p2}, Ljava/util/concurrent/PriorityBlockingQueue;->drainTo(Ljava/util/Collection;I)I
+
+    move-result v0
+
+    .line 125
+    :goto_0
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v1}, Ljava/util/Queue;->isEmpty()Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
+    if-gt v0, p2, :cond_0
+
+    .line 126
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v1}, Ljava/util/Queue;->poll()Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-interface {p1, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 127
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    .line 131
+    :cond_0
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    return v0
+
+    :catchall_0
+    move-exception v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    throw v0
+.end method
+
+.method get(ILjava/lang/Long;Ljava/util/concurrent/TimeUnit;)Lio/fabric/sdk/android/services/concurrency/Dependency;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I",
+            "Ljava/lang/Long;",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")TE;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .prologue
+    .line 219
+    :goto_0
+    invoke-virtual {p0, p1, p2, p3}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->performOperation(ILjava/lang/Long;Ljava/util/concurrent/TimeUnit;)Lio/fabric/sdk/android/services/concurrency/Dependency;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 220
+    invoke-virtual {p0, v0}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->canProcess(Lio/fabric/sdk/android/services/concurrency/Dependency;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    .line 227
+    :cond_0
+    return-object v0
+
+    .line 223
+    :cond_1
+    invoke-virtual {p0, p1, v0}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->offerBlockedResult(ILio/fabric/sdk/android/services/concurrency/Dependency;)Z
+
+    goto :goto_0
+.end method
+
+.method offerBlockedResult(ILio/fabric/sdk/android/services/concurrency/Dependency;)Z
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(ITE;)Z"
+        }
+    .end annotation
+
+    .prologue
+    .line 207
+    :try_start_0
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
+
+    .line 208
+    const/4 v0, 0x1
+
+    if-ne p1, v0, :cond_0
+
+    .line 209
+    invoke-super {p0, p2}, Ljava/util/concurrent/PriorityBlockingQueue;->remove(Ljava/lang/Object;)Z
+
+    .line 211
+    :cond_0
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v0, p2}, Ljava/util/Queue;->offer(Ljava/lang/Object;)Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    move-result v0
+
+    .line 213
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    return v0
+
+    :catchall_0
+    move-exception v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    throw v0
+.end method
+
+.method public peek()Lio/fabric/sdk/android/services/concurrency/Dependency;
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TE;"
+        }
+    .end annotation
+
+    .prologue
+    const/4 v0, 0x0
+
+    .line 54
+    const/4 v1, 0x1
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    :try_start_0
+    invoke-virtual {p0, v1, v2, v3}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->get(ILjava/lang/Long;Ljava/util/concurrent/TimeUnit;)Lio/fabric/sdk/android/services/concurrency/Dependency;
+    :try_end_0
+    .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
+
+    move-result-object v0
+
+    .line 57
+    :goto_0
+    return-object v0
+
+    .line 55
+    :catch_0
+    move-exception v1
+
+    goto :goto_0
+.end method
+
+.method public bridge synthetic peek()Ljava/lang/Object;
+    .locals 1
+
+    .prologue
+    .line 29
+    invoke-virtual {p0}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->peek()Lio/fabric/sdk/android/services/concurrency/Dependency;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method performOperation(ILjava/lang/Long;Ljava/util/concurrent/TimeUnit;)Lio/fabric/sdk/android/services/concurrency/Dependency;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I",
+            "Ljava/lang/Long;",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")TE;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .prologue
+    .line 178
+    packed-switch p1, :pswitch_data_0
+
+    .line 192
+    const/4 v0, 0x0
+
+    .line 194
+    :goto_0
+    return-object v0
+
+    .line 180
+    :pswitch_0
+    invoke-super {p0}, Ljava/util/concurrent/PriorityBlockingQueue;->take()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lio/fabric/sdk/android/services/concurrency/Dependency;
+
+    goto :goto_0
+
+    .line 183
+    :pswitch_1
+    invoke-super {p0}, Ljava/util/concurrent/PriorityBlockingQueue;->peek()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lio/fabric/sdk/android/services/concurrency/Dependency;
+
+    goto :goto_0
+
+    .line 186
+    :pswitch_2
+    invoke-super {p0}, Ljava/util/concurrent/PriorityBlockingQueue;->poll()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lio/fabric/sdk/android/services/concurrency/Dependency;
+
+    goto :goto_0
+
+    .line 189
+    :pswitch_3
+    invoke-virtual {p2}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v0
+
+    invoke-super {p0, v0, v1, p3}, Ljava/util/concurrent/PriorityBlockingQueue;->poll(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lio/fabric/sdk/android/services/concurrency/Dependency;
+
+    goto :goto_0
+
+    .line 178
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+        :pswitch_1
+        :pswitch_2
+        :pswitch_3
+    .end packed-switch
+.end method
+
+.method public poll()Lio/fabric/sdk/android/services/concurrency/Dependency;
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TE;"
+        }
+    .end annotation
+
+    .prologue
+    const/4 v0, 0x0
+
+    .line 69
+    const/4 v1, 0x2
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    :try_start_0
+    invoke-virtual {p0, v1, v2, v3}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->get(ILjava/lang/Long;Ljava/util/concurrent/TimeUnit;)Lio/fabric/sdk/android/services/concurrency/Dependency;
+    :try_end_0
+    .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
+
+    move-result-object v0
+
+    .line 72
+    :goto_0
+    return-object v0
+
+    .line 70
+    :catch_0
+    move-exception v1
+
+    goto :goto_0
+.end method
+
+.method public poll(JLjava/util/concurrent/TimeUnit;)Lio/fabric/sdk/android/services/concurrency/Dependency;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(J",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")TE;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .prologue
+    .line 63
+    const/4 v0, 0x3
+
+    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v1
+
+    invoke-virtual {p0, v0, v1, p3}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->get(ILjava/lang/Long;Ljava/util/concurrent/TimeUnit;)Lio/fabric/sdk/android/services/concurrency/Dependency;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic poll()Ljava/lang/Object;
+    .locals 1
+
+    .prologue
+    .line 29
+    invoke-virtual {p0}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->poll()Lio/fabric/sdk/android/services/concurrency/Dependency;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic poll(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .prologue
+    .line 29
+    invoke-virtual {p0, p1, p2, p3}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->poll(JLjava/util/concurrent/TimeUnit;)Lio/fabric/sdk/android/services/concurrency/Dependency;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public recycleBlockedQueue()V
+    .locals 3
+
+    .prologue
+    .line 239
+    :try_start_0
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
+
+    .line 240
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v0}, Ljava/util/Queue;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    .line 242
+    :cond_0
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 243
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lio/fabric/sdk/android/services/concurrency/Dependency;
+
+    .line 244
+    invoke-virtual {p0, v0}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->canProcess(Lio/fabric/sdk/android/services/concurrency/Dependency;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    .line 245
+    invoke-super {p0, v0}, Ljava/util/concurrent/PriorityBlockingQueue;->offer(Ljava/lang/Object;)Z
+
+    .line 246
+    invoke-interface {v1}, Ljava/util/Iterator;->remove()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    goto :goto_0
+
+    .line 250
+    :catchall_0
+    move-exception v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    throw v0
+
+    :cond_1
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    .line 252
+    return-void
+.end method
+
+.method public remove(Ljava/lang/Object;)Z
+    .locals 2
+
+    .prologue
+    .line 159
+    :try_start_0
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
+
+    .line 160
+    invoke-super {p0, p1}, Ljava/util/concurrent/PriorityBlockingQueue;->remove(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v0, p1}, Ljava/util/Queue;->remove(Ljava/lang/Object;)Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    :cond_0
+    const/4 v0, 0x1
+
+    .line 162
+    :goto_0
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    return v0
+
+    .line 160
+    :cond_1
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    .line 162
+    :catchall_0
+    move-exception v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    throw v0
+.end method
+
+.method public removeAll(Ljava/util/Collection;)Z
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Collection",
+            "<*>;)Z"
+        }
+    .end annotation
+
+    .prologue
+    .line 169
+    :try_start_0
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
+
+    .line 170
+    invoke-super {p0, p1}, Ljava/util/concurrent/PriorityBlockingQueue;->removeAll(Ljava/util/Collection;)Z
+
+    move-result v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v1, p1}, Ljava/util/Queue;->removeAll(Ljava/util/Collection;)Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    move-result v1
+
+    or-int/2addr v0, v1
+
+    .line 172
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    return v0
+
+    :catchall_0
+    move-exception v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    throw v0
+.end method
+
+.method public size()I
+    .locals 2
+
+    .prologue
+    .line 79
+    :try_start_0
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
+
+    .line 80
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v0}, Ljava/util/Queue;->size()I
+
+    move-result v0
+
+    invoke-super {p0}, Ljava/util/concurrent/PriorityBlockingQueue;->size()I
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    .line 82
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    return v0
+
+    :catchall_0
+    move-exception v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    throw v0
+.end method
+
+.method public take()Lio/fabric/sdk/android/services/concurrency/Dependency;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TE;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .prologue
+    const/4 v1, 0x0
+
+    .line 48
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, v0, v1, v1}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->get(ILjava/lang/Long;Ljava/util/concurrent/TimeUnit;)Lio/fabric/sdk/android/services/concurrency/Dependency;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic take()Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .prologue
+    .line 29
+    invoke-virtual {p0}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->take()Lio/fabric/sdk/android/services/concurrency/Dependency;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public toArray()[Ljava/lang/Object;
+    .locals 2
+
+    .prologue
+    .line 99
+    :try_start_0
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
+
+    .line 100
+    invoke-super {p0}, Ljava/util/concurrent/PriorityBlockingQueue;->toArray()[Ljava/lang/Object;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v1}, Ljava/util/Queue;->toArray()[Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-virtual {p0, v0, v1}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->concatenate([Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    move-result-object v0
+
+    .line 102
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    return-object v0
+
+    :catchall_0
+    move-exception v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    throw v0
+.end method
+
+.method public toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">([TT;)[TT;"
+        }
+    .end annotation
+
+    .prologue
+    .line 89
+    :try_start_0
+    iget-object v0, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantLock;->lock()V
+
+    .line 90
+    invoke-super {p0, p1}, Ljava/util/concurrent/PriorityBlockingQueue;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->blockedQueue:Ljava/util/Queue;
+
+    invoke-interface {v1, p1}, Ljava/util/Queue;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-virtual {p0, v0, v1}, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->concatenate([Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    move-result-object v0
+
+    .line 92
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    return-object v0
+
+    :catchall_0
+    move-exception v0
+
+    iget-object v1, p0, Lio/fabric/sdk/android/services/concurrency/DependencyPriorityBlockingQueue;->lock:Ljava/util/concurrent/locks/ReentrantLock;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
+
+    throw v0
+.end method

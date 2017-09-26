@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_about">
+        <Preference android:title="@string/pref_about_developer_title" android:key="pref_key_about_developer" android:summary="@string/pref_about_developer_summary" />
+        <Preference android:title="@string/pref_about_version_title" android:key="pref_key_about_version" />
+        <Preference android:title="@string/pref_about_version_snapchat_title" android:key="pref_key_about_version_snapchat" />
+    </PreferenceCategory>
+</PreferenceScreen>

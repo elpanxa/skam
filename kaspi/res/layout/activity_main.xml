@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.BottomSheetLayout android:id="@id/bottomsheet" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.DrawerLayout android:id="@id/drawerLayout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.Toolbar android:id="@id/toolbar" style="@style/Widget.Casper.Toolbar">
+                <ProgressBar android:layout_gravity="center|right" android:id="@id/toolbarProgressBar" android:visibility="visible" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            </android.support.v7.widget.Toolbar>
+            <android.support.v4.view.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="vertical" android:id="@id/adView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.heinrichreimersoftware.materialdrawer.DrawerView android:layout_gravity="start" android:id="@id/drawer" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </android.support.v4.widget.DrawerLayout>
+</com.flipboard.bottomsheet.BottomSheetLayout>

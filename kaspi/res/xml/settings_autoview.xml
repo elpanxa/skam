@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_autoview">
+        <CheckBoxPreference android:title="@string/pref_autoview_snaps_title" android:key="pref_key_autoview_snaps" android:summary="@string/pref_autoview_snaps_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_autoview_stories_title" android:key="pref_key_autoview_stories" android:summary="@string/pref_autoview_stories_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

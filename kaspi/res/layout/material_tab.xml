@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <at.markushi.ui.RevealColorView android:id="@id/reveal" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/materialTextTab" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/selector" android:layout_width="fill_parent" android:layout_height="@dimen/tabSelectorHeight" />
+</FrameLayout>

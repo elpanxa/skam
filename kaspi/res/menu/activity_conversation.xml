@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_reply" android:id="@id/action_reply" android:title="@string/action_reply" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_messages" android:id="@id/action_messages" android:title="@string/title_chat" app:showAsAction="never" />
+    <item android:id="@id/action_clear_conversation" android:title="@string/action_clear_conversation" app:showAsAction="never" />
+</menu>

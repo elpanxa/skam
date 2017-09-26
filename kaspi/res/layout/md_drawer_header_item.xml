@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mdHeaderRoot" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/mdDivider" android:layout_width="fill_parent" android:layout_height="@dimen/md_divider_height" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/mdHeaderTitleRoot" android:layout_width="fill_parent" android:layout_height="@dimen/md_list_item_height">
+        <TextView android:ellipsize="marquee" android:gravity="start" android:id="@id/mdHeaderTitle" android:paddingLeft="@dimen/md_baseline" android:paddingRight="@dimen/md_baseline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextAppearance.AppCompat.Subhead" />
+    </LinearLayout>
+</LinearLayout>

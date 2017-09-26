@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_camera_default_readable">
+        <item>Casper Kamera</item>
+        <item>Installerad Kamera App</item>
+    </string-array>
+    <string-array name="items_notification_interval">
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="items_notification_interval_readable">
+        <item>15 Minuter</item>
+        <item>30 Minuter</item>
+        <item>45 Minuter</item>
+        <item>1 Timme</item>
+    </string-array>
+</resources>

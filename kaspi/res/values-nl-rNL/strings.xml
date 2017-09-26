@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_accept_request">Voeg een vriend toe</string>
+    <string name="action_block_user">Blokeer Gebruiker</string>
+    <string name="action_close_drawer">Sluit Drawer</string>
+    <string name="action_delete_all_stories">Verwijder alle Verhalen</string>
+    <string name="action_delete_request">Verwijder Vriend</string>
+    <string name="action_delete_story">Verwijder dit verhaal</string>
+    <string name="action_edit">Wijzig</string>
+    <string name="action_edit_display">Wijzig Naam</string>
+    <string name="action_logout">Log Uit</string>
+    <string name="action_mark_replayed">Markeer Als Beantwoord</string>
+    <string name="action_mark_screenshot">Markeer Als Screenshot</string>
+    <string name="action_mark_viewed">Markeer Als Gelezen</string>
+    <string name="action_open_drawer">Open Drawer</string>
+    <string name="action_reauth">Re-Auth Google</string>
+    <string name="action_reply">Antwoord</string>
+    <string name="action_save">Opslaan</string>
+    <string name="action_send_as_snap">Verstuur als Snap</string>
+    <string name="action_send_snap">Verstuur Snap</string>
+    <string name="action_share">Delen</string>
+    <string name="action_stats">Statistieken</string>
+    <string name="action_unblock_user">Deblokkeer Gebruiker</string>
+    <string name="action_unfriend">Verwijder Vriend</string>
+    <string name="button_add_friend">Voeg Vriend Toe</string>
+    <string name="button_agree">Akkoord</string>
+    <string name="button_buy_addon">Koop Uitbreiding</string>
+    <string name="button_cancel">Annuleer</string>
+    <string name="button_choose">Kies</string>
+    <string name="button_close">Sluiten</string>
+    <string name="button_continue">Ga verder</string>
+    <string name="button_decline">Niet Akkoord</string>
+    <string name="button_download">Download</string>
+    <string name="button_having_trouble">Problemen?</string>
+    <string name="button_later">Later</string>
+    <string name="button_learn_more">Leer meer</string>
+    <string name="button_no">Nee</string>
+    <string name="button_ok">Oke</string>
+    <string name="button_photo">Foto</string>
+    <string name="button_relaunch">Start Opnieuw</string>
+    <string name="button_retry">Probeer Opnieuw</string>
+    <string name="button_update">Update</string>
+    <string name="button_video">Video</string>
+    <string name="button_yes">Ja</string>
+    <string name="error_chat_friend_fail">Je kan niet chatten met deze persoon.</string>
+    <string name="error_chat_gateway_error">Mislukt om connectie te maken met chat.</string>
+    <string name="error_file_not_found">Bestand niet gevonden!</string>
+    <string name="error_file_not_usable">Kan dit bestand niet gebruiken</string>
+    <string name="error_file_web_not_usable">Kan geen internetbestanden gebruiken.</string>
+    <string name="error_image">Decoderen van afbeelding mislukt</string>
+    <string name="error_imoji_load_failed">Mislukt om Imoji te dowloaden</string>
+    <string name="error_media_size_rejected">Snapchat heeft dit bestand afgewezen omdat het te groot is. Je moet het bestand kleiner maken met een app die kan comprimeren</string>
+    <string name="hint_auth_token_snapchat">SnapChat AuthToken</string>
+    <string name="hint_email_google">Google E-Mail</string>
+    <string name="hint_password_google">Google Wachtwoord</string>
+    <string name="hint_password_snapchat">Snapchat Wachtwoord</string>
+    <string name="hint_username_snapchat">Snapchat Gebruikersnaam</string>
+    <string name="info_about_imoji">"De Stickers worden geleverd door de publieke API van Imoji.
+
+Je kan je eigen stickers maken in de Imoji App en dan kan je hier naar ze zoeken.
+
+Download de Imoji App van Google Play."</string>
+    <string name="info_account_already_added">Account is al ingelogd, overschakelen ernaar...</string>
+    <string name="info_action_failed">Mislukt, probeer het later opnieuw.</string>
+    <string name="info_addon_multiple_accounts">"Dit is een extra functie.
+
+Je kan dan inloggen met meerdere accounts en snel tussen ze wisselen.
+
+Wil je deze functie kopen?"</string>
+    <string name="info_addons_relaunch_required">"Account:
+%1$s
+
+Uitbreidingen gekocht:
+%2$s
+
+De applicatie moet herstart worden."</string>
+    <string name="info_authenticating">Verificeren...</string>
+    <string name="info_authenticating_chat">Verifiëren met Chat</string>
+    <string name="info_change_font">Als je het lettertype wilt veranderen, klik je op de drie puntjes en selecteer dan \"Verander lettertype\" als je in de toolbar zit.</string>
+    <string name="info_chat_unstable">"Chat is erg onstabiel 
+
+Je kan berichten ontvangen en terug verzenden
+
+Ontvangen media wordt direct geopend
+
+Later komt het er nog beter uit te zien"</string>
+    <string name="info_clear_drawing">Wis tekeningen?</string>
+    <string name="info_clear_stickers">Wis stickers?</string>
+    <string name="info_conversation_empty">Conversatie is leeg</string>
+    <string name="info_copied_clipboard">AuthToken gekopieerd naar klembord</string>
+    <string name="info_default_camera">"Casper heeft zijn eigen camera interface (experimenteel/nog in ontwikkeling)
+
+Het kan misschien helemaal niet werken op jouw apparaat
+
+Je kan kiezen tussen de camera van Casper en van andere apps in de instellingen"</string>
+    <string name="info_delete_emoji_pack">Verwijder Emoji Pack?</string>
+    <string name="info_delete_stories">Al je verhalen verwijderen?</string>
+    <string name="info_delete_story">Dit verhaal verwijderen?</string>
+    <string name="info_deleted">Verwijderd</string>
+    <string name="info_deleting">Verwijderen...</string>
+    <string name="info_device_gallery_intent_error">Meerdere galerij bestanden worden niet ondersteund, welke soort media wil je selecteren?</string>
+    <string name="info_disable_notifications_snapchat_session">Casper meldingen zijn gedeactiveerd, Snapchat zal directe notificaties voorzien.</string>
+    <string name="info_download_emoji_apple">Apple Emoji Pack downloaden?</string>
+    <string name="info_download_emoji_google">Google Emoji Pack downloaden?</string>
+    <string name="info_download_first">Download lettertypes om ze te gebruiken!</string>
+    <string name="info_download_fonts">Download eerst wat lettertypes!</string>
+    <string name="info_downloaded">Gedownload!</string>
+    <string name="info_downloading_emoji_pack">Emoji pack aan het downloaden</string>
+    <string name="info_downloading_font">Lettertype downloaden</string>
+    <string name="info_downloading_update">Update downloaden...</string>
+    <string name="info_facebook_and_updates">"Casper is niet verkrijgbaar in Google Play en moet dus handmatig geüpdatet worden.
+
+Casper zal automatisch zoeken naar updates en vervolgens vragen of u die wilt installeren.
+
+Het word erg gewaardeerd als je onze Facebook-pagina leuk vindt, dan bent u direct up-to-date als er nieuws is."</string>
+    <string name="info_failed_tap_retry">De download is mislukt, tik om opnieuw te proberen.</string>
+    <string name="info_fetching_preview">Preview aan het laden...</string>
+    <string name="info_font_downloaded">Lettertype Gedownload!</string>
+    <string name="info_font_preview_failed">Mislukt om de preview op te halen</string>
+    <string name="info_forward_video_caption">Wil je de tekening en onderschrift voor deze doorgestuurde video behouden?</string>
+    <string name="info_friend_mutual_request">Je bent al vrienden, of het verzoek is in afwachting.</string>
+    <string name="info_google_reauth">Dit doet de huidige Google Token vervallen en er zal opnieuw moeten worden ingelogd.</string>
+    <string name="info_hold_snap_reply">Hou een Snap vast om de ontvanger vast teleggen voor de volgende Snap. Om een Snap te bekijken, één keer tikken.</string>
+    <string name="info_invalid_auth_token">De Gebruikersnaam en AuthToken werden afgewezen.</string>
+    <string name="info_loading">Casper is aan het Laden</string>
+    <string name="info_loading_fonts">Lettertype is aan het laden</string>
+    <string name="info_loading_imoji">Sticker Ophalen...</string>
+    <string name="info_logged_out">"'%1$s' heeft zich uitgelogd!"</string>
+    <string name="info_login_credentials_blank">Inloggegevens zijn verreist.</string>
+    <string name="info_login_credentials_google_blocked">"Je login poging werd geblokkeerd door Google.
+
+Als dit vaker gebeurt, klik dan op 'Leer meer'"</string>
+    <string name="info_login_credentials_google_incorrect">"Ingevoerde email/wachtwoord combinatie is incorrect.
+
+Als ze wel correct waren, maar toch deze melding ziet heb je waarschijnlijk 2-Staps-Authenticatie van Google aanstaan en zul je een app specifieke wachtwoord moeten aanmaken.
+
+Gelieve opnieuw te proberen."</string>
+    <string name="info_login_error">"Casper kan nu niet inloggen. Probeer het later opnieuw.
+
+Extra Details :
+%1$s"</string>
+    <string name="info_login_google">Om de blokkering van apps van derden te omzeilen heeft Casper een geldig Google account nodig voor authenticatie. Tik op \"Leer Meer\" voor meer informatie.</string>
+    <string name="info_login_snapchat">Uw Snapchat gegevens worden enkel naar de servers van Snapchat verstuurd, en opgeslagen op dit toestel. Tik op \"Leer Meer\" voor meer informatie.</string>
+    <string name="info_login_step_1">Login stap 1/2</string>
+    <string name="info_login_step_1_google">Google Authenticatie</string>
+    <string name="info_login_step_2">Login stap 2/2</string>
+    <string name="info_login_step_2_snapchat">Snapchat Authenticatie</string>
+    <string name="info_logout_server">Wilt u ook van de Snapchat server uitloggen? Dan wordt u ook uitgelogd op de Snapchat app.</string>
+    <string name="info_lose_snap">Wil je weggaan? Je zal je snap verliezen!</string>
+    <string name="info_marking_screenshot">Gemarkeerd als Screenshot</string>
+    <string name="info_marking_viewed">Gemarkeerd als bekeken</string>
+    <string name="info_media_downloading">Media Wordt Gedownload!</string>
+    <string name="info_must_agree">Je moet akkoord gaan om Casper te gebruiken</string>
+    <string name="info_new_snap">Nieuwe Snap van %1$s</string>
+    <string name="info_no_addons_purchased">Geen uitbreidingen gekocht</string>
+    <string name="info_no_chat">"Chatten is niet beschikbaar in Casper.
+
+Ik ben van plan om het toe te voegen, maar op dit moment kan ik het niet.
+
+Voor nu zul je de officiële app moeten gebruiken."</string>
+    <string name="info_no_fonts">Geen Lettertypes beschikbaar</string>
+    <string name="info_no_friends">Geen vrienden?!</string>
+    <string name="info_no_friends_requests">Geen vriendschapsverzoeken!</string>
+    <string name="info_no_snaps">Geen Snaps!</string>
+    <string name="info_no_stories">Geen Verhalen!</string>
+    <string name="info_no_story_views">Niemand heeft dit verhaal bekeken!</string>
+    <string name="info_no_updates">"Geen Updates beschikbaar
+v%1$s is geïnstalleerd."</string>
+    <string name="info_no_updates_beta">"Geen BETA Updates beschikbaar
+v%1$s is geïnstalleerd."</string>
+    <string name="info_one_moment">Één moment</string>
+    <string name="info_processing_friends">Vrienden Synchroniseren</string>
+    <string name="info_processing_image">Afbeelding verwerken</string>
+    <string name="info_processing_thumbnail">Video miniatuur aan het maken</string>
+    <string name="info_processing_zip">Zip Archief aan het voorbereiden</string>
+    <string name="info_provide_details_google_first">Probeer eerst met een Google Account in te loggen</string>
+    <string name="info_reading_snapchat_session">Snapchat Sessie aan het lezen</string>
+    <string name="info_recipients_limit">Te veel ontvangers, zal enkel naar de eerste 200 versturen!</string>
+    <string name="info_refreshing_snaps">Snaps aan het vernieuwen</string>
+    <string name="info_reply_snap">Neem/Kies een Snap om mee te antwoorden.</string>
+    <string name="info_saved">Opgeslagen!</string>
+    <string name="info_select_font">Nadat je een lettertype heb gedownload, druk daarop om hem te gebruiken</string>
+    <string name="info_select_recipients">Kies tenminste één ontvanger</string>
+    <string name="info_send_friend_snap">Neem/Kies een Snap om te versturen.</string>
+    <string name="info_sending_to_recipients">Verzenden naar de geselecteerde gebruikers</string>
+    <string name="info_sent">Snap verzonden!</string>
+    <string name="info_share_via_casper">"Als je video's niet kan kiezen, voor welke reden dan ook, kan je dat doen met \"Delen via Casper\"
+Open je galerij, zoek de video en druk dan op \"Delen\"
+
+Druk dan op Casper in de lijst"</string>
+    <string name="info_snap_cached">Snap gevonden in Cache!</string>
+    <string name="info_snap_sent">Snap verstuurd!</string>
+    <string name="info_snapchat_session_not_available">"Het lijkt erop dat je niet ingelogd bent bij Snapchat.
+
+Log in bij Snapchat om deze functie te gebruiken."</string>
+    <string name="info_snapchat_session_not_found">"Casper kan de gegevens van de Snapchat sessie niet lezen.
+
+Dit komt omdat je toestel niet geroot is of omdat Casper het bestand van de sessie niet kan vinden.
+
+:'("</string>
+    <string name="info_snapchat_session_root">"Als je apparaat geroot is, kan je Casper tegelijkertijd gebruiken met Snapchat.
+
+Je kan dan Snaps verzenden via Snapchat en Snaps ontvangen via Casper zonder uit te loggen op één van de apps.
+
+Als je op één van de twee apps uitlogt, log je ook bij de andere app automatisch uit."</string>
+    <string name="info_snaptag_download_failed">Niet gelukt om de SnapTag te downloaden!</string>
+    <string name="info_stats">"Score: %1$d
+Verzonden: %2$d
+Ontvangen: %3$d
+Vrienden: %4$d"</string>
+    <string name="info_stories_empty">Geen verhalen beschikbaar</string>
+    <string name="info_tos">Voordat je Casper gebruikt moet je akkoord gaan met de &lt;a href=%1$s>Gebruiksvoorwaarden&lt;/a></string>
+    <string name="info_update_available">"Er is een update voor Casper beschikbaar.
+
+Het is aanbevolen dat je Casper nu update.
+
+Updaten duurt maar heel even, nu updaten?"</string>
+    <string name="info_update_failed_manually_retry">Het is niet gelukt om de update te downloaden, wilt u het handmatig proberen door naar de download pagina te gaan?</string>
+    <string name="info_uploading_to_snapchat">Uploaden naar Snapchat</string>
+    <string name="info_username_auth_token">Gelieve Gebruikersnaam en AuthToken in te voeren.</string>
+    <string name="info_video_error_reopen">"Enkele video's willen niet afspelen.
+
+Druk op \"Oké\" om nog eens te proberen.
+
+"</string>
+    <string name="info_video_too_large">"De gekozen video is groter dan 5MB
+
+Snapchat zal dit niet accepteren.
+
+Gebruik een video compressie app om de video te verkleinen
+
+Gekozen bestandsgrootte: %1$s"</string>
+    <string name="info_view_snap_hide_toolbars">Tik op de foto of video om de toolbar te laten zien of te laten verdwijnen</string>
+    <string name="info_viewed_icon">"Dit icoon betekent dat je dit verhaal heb gemarkeerd als gezien.
+
+Dit zie je als je je Snaps heb ververst en ze gemarkeerd hebt."</string>
+    <string name="item_media_deleted">Dit verhaal is verwijderd</string>
+    <string name="item_media_time_downloading">Downloaden - %1$s</string>
+    <string name="item_media_time_reply">%1$s - Houd vast om te antwoorden</string>
+    <string name="item_media_time_tap_download">Tik om te downloaden - %1$s</string>
+    <string name="item_media_time_tap_view">%1$s - Tik om te Bekijken</string>
+    <string name="title_about">Over</string>
+    <string name="title_about_version">Versie</string>
+    <string name="title_about_version_summary">v%1$s</string>
+    <string name="title_account_stats">Account Statistieken</string>
+    <string name="title_add_account">Voeg Snapchat Account toe</string>
+    <string name="title_addons">Uitbreidingen</string>
+    <string name="title_announcements">Laatste Aankondigingen</string>
+    <string name="title_auto_mark_viewed">Automatisch markeren als gezien</string>
+    <string name="title_auto_mark_viewed_snaps_open">Snaps na openen</string>
+    <string name="title_auto_mark_viewed_stories_open">Verhalen na openen</string>
+    <string name="title_auto_save_sent_snaps">Sla verstuurde Snaps op</string>
+    <string name="title_auto_save_snaps">Snaps opslaan na downloaden</string>
+    <string name="title_auto_save_snaps_open">Snaps opslaan na openen</string>
+    <string name="title_auto_save_stories">Verhalen opslaan na downloaden</string>
+    <string name="title_auto_save_stories_open">Verhalen opslaan na openen</string>
+    <string name="title_auto_saving">Automatisch opslaan</string>
+    <string name="title_background">Achtergrond</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_casper_login">Casper Login</string>
+    <string name="title_change_colour">Verander Kleur</string>
+    <string name="title_change_font">Verander Lettertype</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_check_purchases">Controleer op Aankopen</string>
+    <string name="title_check_update">Check voor Updates</string>
+    <string name="title_choose_account">Kies Account</string>
+    <string name="title_choose_recipients">Kies Ontvanger(s)</string>
+    <string name="title_confirm_action">Bevestig Actie</string>
+    <string name="title_conversation">Gesprekken</string>
+    <string name="title_credentials">Inloggegevens</string>
+    <string name="title_default_camera">Standaard Camera</string>
+    <string name="title_default_camera_summary">Kies een camera om te gebruiken wanneer Camera-icoon wordt ingedrukt.</string>
+    <string name="title_display">Laat zien:</string>
+    <string name="title_emoji_apple">Apple Emoji</string>
+    <string name="title_emoji_google">Google Emoji</string>
+    <string name="title_enable_notifications">Inschakelen</string>
+    <string name="title_error_occurred">Oeps!</string>
+    <string name="title_facebook">Facebook</string>
+    <string name="title_follow_me">Volg Mij</string>
+    <string name="title_fonts">Lettertype</string>
+    <string name="title_friends">Vrienden</string>
+    <string name="title_friends_requests">Vriendschapsverzoeken</string>
+    <string name="title_get_addons">Koop Uitbreidingen</string>
+    <string name="title_get_addons_ads">Verwijder Advertenties</string>
+    <string name="title_google">Google</string>
+    <string name="title_help">Help</string>
+    <string name="title_hide_viewer_toolbar">Verberg Werkbalk</string>
+    <string name="title_hide_viewer_toolbar_summary">Verberg werkbalk als Snap is geopend. (Tik om te laten zien)</string>
+    <string name="title_imoji">Imoji Stickers</string>
+    <string name="title_imoji_about">Over Imoji</string>
+    <string name="title_info">Informatie</string>
+    <string name="title_instagram">Instagram</string>
+    <string name="title_knowledge_base">Kennisbank</string>
+    <string name="title_manage_accounts">Voeg Account Toe</string>
+    <string name="title_managers">Managers</string>
+    <string name="title_media_clear_cache">Verwijder Cache</string>
+    <string name="title_media_clear_cache_summary">Verwijder tijdelijke bestanden en start de app opnieuw.</string>
+    <string name="title_media_folder">Casper map</string>
+    <string name="title_media_folder_summary">"Je hebt gekozen voor:
+%1$s
+
+Hier worden alle opgeslagen/gedownloade bestanden opgeslagen.
+
+Casper zal nieuwe mappen in deze map creëren.
+
+Vermijd het gebruik van de externe SD kaart. Als deze wordt verwijderd zal de standaard map worden gebruikt voor opslaan.
+
+Alle opgeslagen Snaps zullen NIET naar deze nieuwe map verplaatst worden.
+
+App opnieuw starten om instellingen door te voeren?"</string>
+    <string name="title_message_hint">Stuur een Chat Bericht</string>
+    <string name="title_my_stories">Mijn verhalen</string>
+    <string name="title_notifications">Notificaties</string>
+    <string name="title_notifications_interval">Controleer Interval</string>
+    <string name="title_notifications_interval_summary">Interval om de server te raadplegen op nieuwe Snaps. Willekeurige hoeveelheid seconden (tussen 0 en 15 minuten) zal gebruikt worden om Casper als de echte Snapchat app te doen lijken. Bijvoorbeeld als je 15 minuten selecteert zal er tussen 15 en 30 minuten gekeken worden voor nieuwe Snaps.</string>
+    <string name="title_or">of</string>
+    <string name="title_other">Overig</string>
+    <string name="title_other_auto_download_stories">Automatisch Verhalen downloaden</string>
+    <string name="title_other_blackberry_mode">BlackBerry Mode</string>
+    <string name="title_other_blackberry_mode_summary">Zet dit aan als je een BlackBerry apparaat gebruikt.</string>
+    <string name="title_remember_google">Onthoud Google-login gegevens</string>
+    <string name="title_remember_password">Onthoud Snapchat Wachtwoord</string>
+    <string name="title_remember_password_summary">Automatisch wachtwoord aanvullen bij uitloggen van Snapchat server</string>
+    <string name="title_remove_font">Gebruik Standaard Lettertype</string>
+    <string name="title_remove_google_account">Verwijder Google Account</string>
+    <string name="title_remove_snapchat_accounts">Verwijder alle Snapchat Accounts</string>
+    <string name="title_saved_snaps">Opgeslagen Snaps</string>
+    <string name="title_search_hint">Tik om Stickers te Zoeken</string>
+    <string name="title_send_camera">Start Camera</string>
+    <string name="title_send_gallery">Kies van Gallerij</string>
+    <string name="title_session_authtoken">Sessie AuthToken</string>
+    <string name="title_settings">Instellingen</string>
+    <string name="title_show_view_time">Snap/Verhaal tijd</string>
+    <string name="title_snapchat">Snapchat</string>
+    <string name="title_snapchat_session">Gebruik Snapchat Sessie (ROOT)</string>
+    <string name="title_snaps">Snaps</string>
+    <string name="title_storage">Opslag</string>
+    <string name="title_stories">Verhalen</string>
+    <string name="title_story_stats">Verhalen Statistieken</string>
+    <string name="title_switch_account">Wissel van Account</string>
+    <string name="title_terms_of_use">Gebruiksvoorwaarden</string>
+    <string name="title_text">Tekst</string>
+    <string name="title_update">Update</string>
+    <string name="title_updates">Updates</string>
+    <string name="title_updates_beta">Verkrijg BETA updates</string>
+    <string name="title_updates_beta_summary">Als er een update met experimentele functies wordt uitgebracht wordt je op de hoogte gesteld net zoals een gewone update.</string>
+    <string name="title_username_hint">Gebruikersnaam</string>
+    <string name="title_view_snaptag">Mijn SnapTag</string>
+</resources>

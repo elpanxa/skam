@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_accept_request">Dodaj kot prijatelja</string>
+    <string name="action_block_user">Blokiraj uporabnika</string>
+    <string name="action_close_drawer">Zapri predalnik</string>
+    <string name="action_delete_all_stories">Zbriši vse zgodbe</string>
+    <string name="action_delete_request">Odstrani prijatelja</string>
+    <string name="action_delete_story">Zbriši to zgodbo</string>
+    <string name="action_edit">Uredi</string>
+    <string name="action_edit_display">Uredi ime</string>
+    <string name="action_logout">Odjavi se</string>
+    <string name="action_mark_replayed">Označi replay</string>
+    <string name="action_mark_screenshot">Označi kot Screenshot</string>
+    <string name="action_mark_viewed">Označi videno</string>
+    <string name="action_open_drawer">Odpri predalnik</string>
+    <string name="action_reauth">Re-Auth Google</string>
+    <string name="action_reply">Odgovori</string>
+    <string name="action_save">Shrani</string>
+    <string name="action_send_as_snap">Pošlji kot Snap</string>
+    <string name="action_send_snap">Pošlji Snap</string>
+    <string name="action_share">Deli</string>
+    <string name="action_stats">Statistika</string>
+    <string name="action_unblock_user">Odblokiraj uporabnika</string>
+    <string name="action_unfriend">Odstrani prijatelja</string>
+    <string name="button_add_friend">Dodaj prijatelja</string>
+    <string name="button_agree">Strinjam se</string>
+    <string name="button_buy_addon">Kupi dodatek</string>
+    <string name="button_cancel">Prekliči</string>
+    <string name="button_choose">Izberi</string>
+    <string name="button_close">Zapri</string>
+    <string name="button_continue">Nadaljuj</string>
+    <string name="button_decline">Ne strinjam se</string>
+    <string name="button_download">Prenesi</string>
+    <string name="button_having_trouble">Imate težave?</string>
+    <string name="button_later">Kasneje</string>
+    <string name="button_learn_more">Izvej več</string>
+    <string name="button_no">Ne</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_photo">Slika</string>
+    <string name="button_relaunch">Ponovno zaženi</string>
+    <string name="button_retry">Poskusi znova</string>
+    <string name="button_update">Posodobi</string>
+    <string name="button_video">Video</string>
+    <string name="button_yes">Da</string>
+    <string name="error_chat_friend_fail">S to osebo ne moreš klepetati</string>
+    <string name="error_chat_gateway_error">Povezava z strežniki ni bila uspešna</string>
+    <string name="error_file_not_found">Datoteka ni najdena!</string>
+    <string name="error_file_not_usable">Datoteke ni mogoče uporabiti</string>
+    <string name="error_file_web_not_usable">Datotek iz interneta ni mogoče uporabiti</string>
+    <string name="error_image">Dekodiranje slike ni bilo uspešno</string>
+    <string name="error_imoji_load_failed">Prenašanje Emojia ni bilo uspešno</string>
+    <string name="error_media_size_rejected">Snapchat je zavrnil video zaradi prevelike velikosti. Prosimo zmanjšajte velikost videa z aplikacijo.</string>
+    <string name="hint_auth_token_snapchat">Snapchat AuthToken</string>
+    <string name="hint_email_google">Google Email</string>
+    <string name="hint_password_google">Google geslo</string>
+    <string name="hint_password_snapchat">Snapchat geslo</string>
+    <string name="hint_username_snapchat">Snapchat uporabniško ime</string>
+    <string name="info_about_imoji">"Nalepke so priskrbljene od Imoji aplikacije
+
+Lahko ustvarite svoje nalepke v Imoji aplikaciji in jih kasneje poiščete tukaj.
+
+Si boste prenesli Imoji aplikacijo s trgovine Play?"</string>
+    <string name="info_account_already_added">Račun že prijavljen, preklapljam nanj.</string>
+    <string name="info_action_failed">Ni uspelo. Poskusite kasneje.</string>
+    <string name="info_addon_multiple_accounts">"To je dodaten dodatek.
+
+Lahko boste dodali več računov in hitro menjali med njimi.
+
+Ali bi radi kupili ta dodatek?"</string>
+    <string name="info_addons_relaunch_required">"Račun
+%1$s
+
+Kupljeni dodatki:
+%2$s
+
+Potreben je ponovni zagon."</string>
+    <string name="info_authenticating">Preverjanje</string>
+    <string name="info_authenticating_chat">Preveranje pristnosti Chata</string>
+    <string name="info_change_font">Da spremenite font, pritisnite ikono s tremi pikami in pritisnite \"spremeni font\" ko imate besedilo na zaslonu.</string>
+    <string name="info_chat_unstable">"Klepet je ekstremno nestabilen.
+
+Lahko prejemate in pošiljate sporočila.
+
+Prejete slike se bodo odprle avtomatsko.
+
+Kasneje bo izgledalo boljše."</string>
+    <string name="info_clear_drawing">Počistim risbo?</string>
+    <string name="info_clear_stickers">Počistim nalepke?</string>
+    <string name="info_conversation_empty">Pogovor je prazen</string>
+    <string name="info_copied_clipboard">AuthToken je kopiran v odložišče</string>
+    <string name="info_default_camera">"Casper ima svojo kamero (Eksperimentalno/Še v delu)
+
+Morda na vaši napravi ne bo delovala.
+
+Casperjevo kamero lahko zamenjate v nastavitvah"</string>
+    <string name="info_delete_emoji_pack">Zbrišem Emoji paket?</string>
+    <string name="info_delete_stories">Zbrišem vse zgodbe?</string>
+    <string name="info_delete_story">Zbrišem to zgodbo?</string>
+    <string name="info_deleted">Zbrisano</string>
+    <string name="info_deleting">Brisanje</string>
+    <string name="info_device_gallery_intent_error">Multi selekcija ni na voljo, želite dodati sliko ali video?</string>
+    <string name="info_disable_notifications_snapchat_session">Casper obvestila izključena, od zdaj naprej vas bo obveščal Snapchat.</string>
+    <string name="info_download_emoji_apple">Prenesem Apple Emoji paket?</string>
+    <string name="info_download_emoji_google">Prenesem Google Emoji paket?</string>
+    <string name="info_download_first">Prenesi font da ga uporabiš!</string>
+    <string name="info_download_fonts">Najprej prenesi fonte</string>
+    <string name="info_downloaded">Prenešeno!</string>
+    <string name="info_downloading_emoji_pack">Prenašam Emoji paket</string>
+    <string name="info_downloading_font">Prenašam font</string>
+    <string name="info_downloading_update">Prenašam posodobitev</string>
+    <string name="info_facebook_and_updates">"Casper ni na voljo v trgovini Play zato bo zahteval ročne posodobitve.
+
+Casper vas bo o posodobitvi samodejno obvestil.
+
+Prosimo vzamite si sekundo in všečkajte Casper Facebook stran da boste dobivali pomembna obvestila."</string>
+    <string name="info_failed_tap_retry">Prenos ni uspel, pritisnite za ponoven poskus.</string>
+    <string name="info_fetching_preview">Pridobivam predogled...</string>
+    <string name="info_font_downloaded">Font prenešen!</string>
+    <string name="info_font_preview_failed">Ni uspelo pridobiti predogleda</string>
+    <string name="info_forward_video_caption">Obdržim sliko in napis za posredovan video?</string>
+    <string name="info_friend_mutual_request">S to osebo si že prijatelj ali pa je prošnja že bila poslana</string>
+    <string name="info_google_reauth">To bo ovrglo lokalni Google token in zahteval novega.</string>
+    <string name="info_hold_snap_reply">Drženje na Snap bo dodalo osebo na seznam prejemnikov naslednjega Snapa ki ga boste poslali. Da bi si Snap ogledali, kliknite samo enkrat.</string>
+    <string name="info_invalid_auth_token">Uporabniško ime + AuthToken sta zavrnjena.</string>
+    <string name="info_loading">Casper se nalaga</string>
+    <string name="info_loading_fonts">Nalaganje fontov</string>
+    <string name="info_loading_imoji">Pridobivanje nalepk</string>
+    <string name="info_logged_out">%1$s se je odjavil</string>
+    <string name="info_login_credentials_blank">Prijavne informacije so potrebne</string>
+    <string name="info_login_credentials_google_blocked">"Vaša prijava je bila blokirana iz Googlove strani.
+
+Če se to nadaljuje pritisnite \"izvedi več\"."</string>
+    <string name="info_login_credentials_google_incorrect">"E-mail/geslo ki ste jih vnesli ni pravilno.
+
+Če sta pravilna, imate morda vključeni 2 preverjavi in morate ustvariti geslo za aplikacijo.
+
+Prosimo poskusite znova."</string>
+    <string name="info_login_error">"Casper se trenutno ne more prijaviti. Prosimo poskusite znova.
+
+Detajli:
+%1$s"</string>
+    <string name="info_login_google">Da Snapchat ne bi zaznal uporabe drugih aplikacij Casper potrebuje Google račun za povezavo. Pritisnite \"izvej več\" za več informacij.</string>
+    <string name="info_login_snapchat">Vaše Snapchat uporabniško ime in geslo je posredovano le Snapchat severjem. Pritisnite \"izvej več\" za več informacij.</string>
+    <string name="info_login_step_1">Vpis korak 1/2</string>
+    <string name="info_login_step_1_google">Google preverjanje</string>
+    <string name="info_login_step_2">Vpis korak 2/2</string>
+    <string name="info_login_step_2_snapchat">Snapchat preverjanje</string>
+    <string name="info_logout_server">Odjava tudi iz Snapchat serverja? To vas bo odjavilo iz Snapchata če uporabljate isto sejo.</string>
+    <string name="info_lose_snap">Želite zapreti? Izgubili boste trenutni Snap!</string>
+    <string name="info_marking_screenshot">Označeno s screenshotom!</string>
+    <string name="info_marking_viewed">Označeno kot videno!</string>
+    <string name="info_media_downloading">Slika/video se prenaša</string>
+    <string name="info_must_agree">Morate se strinjati da uporabljate Casper</string>
+    <string name="info_new_snap">Nov snap od %1$s</string>
+    <string name="info_no_addons_purchased">Ni kupljenih dodatkov.</string>
+    <string name="info_no_chat">"Sporočanje preko Casperja ni na voljo.
+
+Hoteli smo ga dodati, vendar ga ne moremo.
+
+Za zdaj lahko uporabljate Snapchat aplikacijo."</string>
+    <string name="info_no_fonts">Na voljo ni pisav.</string>
+    <string name="info_no_friends">Brez prijateljev?!</string>
+    <string name="info_no_friends_requests">Brez prošenj za prijateljstvo!</string>
+    <string name="info_no_snaps">Ni Snapov!</string>
+    <string name="info_no_stories">Ni zgodb!</string>
+    <string name="info_no_story_views">Nihče še ni pogledal te zgodbe!</string>
+    <string name="info_no_updates">"Na voljo ni posodobitev.
+Verzija v%1$s"</string>
+    <string name="info_no_updates_beta">"Beta posodobitev ni na voljo.
+Verzija v%1$s"</string>
+    <string name="info_one_moment">Samo malo</string>
+    <string name="info_processing_friends">Sinhroniziranje prijateljev</string>
+    <string name="info_processing_image">Predelujem sliko</string>
+    <string name="info_processing_thumbnail">Ustvarjam video predogled</string>
+    <string name="info_processing_zip">Pripravljam zip arhiv</string>
+    <string name="info_provide_details_google_first">Prosimo prijavite se z Gooogle računom</string>
+    <string name="info_reading_snapchat_session">Branje Snapchat seje</string>
+    <string name="info_recipients_limit">Preveč prejemnikov, poslano bo samo prvim 200!</string>
+    <string name="info_refreshing_snaps">Osvežujem Snape</string>
+    <string name="info_reply_snap">Slikajte/Izberite Snap s katerim želite odgovoriti</string>
+    <string name="info_saved">Shranjeno!</string>
+    <string name="info_select_font">Ko ste prenesli font kliknite nanj da ga uporabite.</string>
+    <string name="info_select_recipients">Prosimo izberite si vsaj enega prejemnika.</string>
+    <string name="info_send_friend_snap">Slikajte/Izberite Snap katerega želite poslati</string>
+    <string name="info_sending_to_recipients">Pošiljam prejemnikom</string>
+    <string name="info_sent">Snap poslan!</string>
+    <string name="info_share_via_casper">"Če ne morete izbrati videa, ga lahko označite iz galerije kot \"share via\" Casper
+
+Odprite galerijo, izberite video in pritisnite share gumb.
+
+Izberite Casper na seznamu."</string>
+    <string name="info_snap_cached">Snap najden v pomnilniku</string>
+    <string name="info_snap_sent">Snap poslan!</string>
+    <string name="info_snapchat_session_not_available">"Zdi se da niste prijavljeni v Snapchat.
+
+Prijavite se v Snapchat da uporabljate to funkcijo."</string>
+    <string name="info_snapchat_session_not_found">"Casper ne more prebrati Snapchat seje.
+
+Vaša naprava nima root dostopa ali pa Casper na najde seje.
+
+:'("</string>
+    <string name="info_snapchat_session_root">"Če imate root dostop, se lahko Casper prijavi v isto sejo kot Snapchat.
+
+Lahko boste pošiljati Snape iz Snapchata in potem odprli Casper da jih shranite brez da se odjavite iz njih.
+
+Če se odjavite iz ene aplikacije se boste avtomatsko še iz druge."</string>
+    <string name="info_snaptag_download_failed">SnapTag prenašanje ni uspelo!</string>
+    <string name="info_stats">"Točke: %1$d
+Poslano: %2$d
+Prejeto: %3$d
+Prijatelji: %4$d"</string>
+    <string name="info_stories_empty">Na voljo ni zgodb</string>
+    <string name="info_tos">Pred uporabo Casperja morate prebrati in se strinjati s &lt;a href=%1$s>Pogoji Uporabe&lt;/a></string>
+    <string name="info_update_available">"Posodobitev Casperja je na voljo.
+
+Priporočeno je da posodobite zdaj.
+
+Posodabljanje vzame samo trenutek, posodobim zdaj?"</string>
+    <string name="info_update_failed_manually_retry">Prenos posodobitve ni uspel, prenesem iz spletne strani?</string>
+    <string name="info_uploading_to_snapchat">Nalagam na Snapchat</string>
+    <string name="info_username_auth_token">Prosimo priložite uporabniško ime z AuthToken-om</string>
+    <string name="info_video_error_reopen">"Nekaj videev ni mogoče predvajati v prvo.
+
+Pritisnite \"OK\" za ponoven poskus.
+
+"</string>
+    <string name="info_video_too_large">"Izbran video je večji od 5MB
+
+Snapchat ga ne bo sprejel
+
+Stisni video da mu zmanjšaš velikost
+
+Velikost izbranega videa:%1$s"</string>
+    <string name="info_view_snap_hide_toolbars">Pritisnite na sliko ali video da pokažete/skrijete orodno vrstico.</string>
+    <string name="info_viewed_icon">"Ta ikona pomeni da ste to zgodbo označili z ogledom.
+
+Pokazala se bo po osveženju če ste označili z ogledom."</string>
+    <string name="item_media_deleted">Ta zgodba je bila izbrisana</string>
+    <string name="item_media_time_downloading">Prenašanje - %1$s</string>
+    <string name="item_media_time_reply">%1$s - Drži za odpis</string>
+    <string name="item_media_time_tap_download">Pritisni za prenos - %1$s</string>
+    <string name="item_media_time_tap_view">%1$s - Pritisni za ogled</string>
+    <string name="title_about">O nas</string>
+    <string name="title_about_version">Verzija</string>
+    <string name="title_about_version_summary">v%1$s</string>
+    <string name="title_account_stats">Statistika računa</string>
+    <string name="title_add_account">Dodaj snapchat račun</string>
+    <string name="title_addons">Dodatki</string>
+    <string name="title_announcements">Zadnja obvestila</string>
+    <string name="title_auto_mark_viewed">Avtomatsko označi kot videno</string>
+    <string name="title_auto_mark_viewed_snaps_open">Snape ko so odprti</string>
+    <string name="title_auto_mark_viewed_stories_open">Zgodbe ko so odprte</string>
+    <string name="title_auto_save_sent_snaps">Shranjevanje poslanih snapov</string>
+    <string name="title_auto_save_snaps">Shranjevanje Snapov po prenosu</string>
+    <string name="title_auto_save_snaps_open">Shranjevanje Snapov ko so odprti</string>
+    <string name="title_auto_save_stories">Shranjevanje zgodb po prenosu</string>
+    <string name="title_auto_save_stories_open">Shranjevanje zgodb ko so odprte</string>
+    <string name="title_auto_saving">Avtomatsko shranjevanje</string>
+    <string name="title_background">Ozadje</string>
+    <string name="title_camera">Kamera</string>
+    <string name="title_casper_login">Casper prijava</string>
+    <string name="title_change_colour">Zamenjaj barvo</string>
+    <string name="title_change_font">Zamenjaj pisavo</string>
+    <string name="title_chat">Pogovor</string>
+    <string name="title_check_purchases">Preveri za nakupe</string>
+    <string name="title_check_update">Preveri za posodobitev</string>
+    <string name="title_choose_account">Izberi račun</string>
+    <string name="title_choose_recipients">Izberi prejemnike</string>
+    <string name="title_confirm_action">Potrdi akcijo</string>
+    <string name="title_conversation">Pogovor</string>
+    <string name="title_credentials">Informacije o ustvarjalcu</string>
+    <string name="title_default_camera">Privzeta kamera</string>
+    <string name="title_default_camera_summary">Izberite kamero ki se bo zagnala ko boste pritisnili ikono s kamero.</string>
+    <string name="title_display">Zaslon</string>
+    <string name="title_emoji_apple">Apple Emoji</string>
+    <string name="title_emoji_google">Google Emoji</string>
+    <string name="title_enable_notifications">Vključi</string>
+    <string name="title_error_occurred">Ups!</string>
+    <string name="title_facebook">Facebook</string>
+    <string name="title_follow_me">Sledi mi</string>
+    <string name="title_fonts">Pisave</string>
+    <string name="title_friends">Prijatelji</string>
+    <string name="title_friends_requests">Prošnje za prijateljstvo</string>
+    <string name="title_get_addons">Dobi dodatke</string>
+    <string name="title_get_addons_ads">Odstrani oglase</string>
+    <string name="title_google">Google</string>
+    <string name="title_help">Pomoč</string>
+    <string name="title_hide_viewer_toolbar">Skrij prejemnikovo orodno vrstico</string>
+    <string name="title_hide_viewer_toolbar_summary">Skrij orodno vrstico ko se Snap odpre. (klikni da se odpre)</string>
+    <string name="title_imoji">Nalepke Imoji</string>
+    <string name="title_imoji_about">O Imoji</string>
+    <string name="title_info">Informacije</string>
+    <string name="title_instagram">Instagram</string>
+    <string name="title_knowledge_base">Baza znanja</string>
+    <string name="title_manage_accounts">Dodaj račun</string>
+    <string name="title_managers">Vodje</string>
+    <string name="title_media_clear_cache">Počisti predpomnilnik</string>
+    <string name="title_media_clear_cache_summary">Počisti začasne datoteke in se ponovno zaženi.</string>
+    <string name="title_media_folder">Casper datoteke</string>
+    <string name="title_media_folder_summary">"Izbrali ste:
+%1$s
+
+Tukaj bodo shranjene vse prenešene datoteke.
+
+Casper bo ustvaril ostale mape v tej mapi.
+
+Izogibajte se uporabi zunanje spomisnke kartice. Če bo odstranjena, se bojo datoteke shranjevale na privzeto mapo.
+
+Vsi shranjeni snapi se NE BODO prenesli v to mapo.
+
+Ali želite aplikacijo ponovno zagnati, da se spremenjene nastavitve uporabijo?"</string>
+    <string name="title_message_hint">Pošlji sporočilo</string>
+    <string name="title_my_stories">Moje zgodbe</string>
+    <string name="title_notifications">Obvestila</string>
+    <string name="title_notifications_interval">Interval pregledov za Snape</string>
+    <string name="title_notifications_interval_summary">Interval za preverjanje za Snape. Če si izberete 15 minut bo Casper preveril za Snape med 15 in 30 minutami, da izgleda kot pravi Snapchat server.</string>
+    <string name="title_or">ali</string>
+    <string name="title_other">Ostalo</string>
+    <string name="title_other_auto_download_stories">Avtomatsko naloži zgodbe</string>
+    <string name="title_other_blackberry_mode">BlackBerry način</string>
+    <string name="title_other_blackberry_mode_summary">Omogočite to, če uporabljate BlackBerry napravo.</string>
+    <string name="title_remember_google">Zapomni si Google vpise</string>
+    <string name="title_remember_password">Zapomni si Snapchat geslo</string>
+    <string name="title_remember_password_summary">Avtomatsko vpiši geslo če se odjavite iz Snapchata</string>
+    <string name="title_remove_font">Uporabi privzeto pisavo</string>
+    <string name="title_remove_google_account">Odstrani Google račun</string>
+    <string name="title_remove_snapchat_accounts">Odstrani vse Snapchat račune</string>
+    <string name="title_saved_snaps">Shranjeni Snapi</string>
+    <string name="title_search_hint">Dotakni se, da dodaš nalepko</string>
+    <string name="title_send_camera">Zaženi kamero</string>
+    <string name="title_send_gallery">Izberi iz galerije</string>
+    <string name="title_session_authtoken">Seja AuthToken</string>
+    <string name="title_settings">Nastavitve</string>
+    <string name="title_show_view_time">Čas Snapa/zgodbe</string>
+    <string name="title_snapchat">Snapchat</string>
+    <string name="title_snapchat_session">Uporabi Snapchat sejo (ROOT)</string>
+    <string name="title_snaps">Snapi</string>
+    <string name="title_storage">Pomnilnik</string>
+    <string name="title_stories">Zgodbe</string>
+    <string name="title_story_stats">Statisktika zgodbe</string>
+    <string name="title_switch_account">Preklopi račun</string>
+    <string name="title_terms_of_use">Pogoji uporabe</string>
+    <string name="title_text">Besedilo</string>
+    <string name="title_update">Posodobitev</string>
+    <string name="title_updates">Posodobitve</string>
+    <string name="title_updates_beta">Dobi BETA posodobitve</string>
+    <string name="title_updates_beta_summary">Če se pojavi posodobitev z eksperimentalnimi funkcijami, boste opozorjeni kot za navadno posodobitev.</string>
+    <string name="title_username_hint">Uporabniško ime</string>
+    <string name="title_view_snaptag">Moj SnapTag</string>
+</resources>

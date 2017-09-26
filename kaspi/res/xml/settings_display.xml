@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_display">
+        <CheckBoxPreference android:title="@string/pref_display_circle_story_icons_title" android:key="pref_key_display_circle_story_icons" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_display_snap_duration_title" android:key="pref_key_display_snap_duration" android:summary="@string/pref_display_snap_duration_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_display_live_events_title" android:key="pref_key_display_live_events" android:summary="@string/pref_display_live_events_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

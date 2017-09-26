@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_camera_white" android:id="@id/action_send_camera" android:title="@string/title_send_camera" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_photo_folder" android:id="@id/action_send_gallery" android:title="@string/title_send_gallery" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_messages" android:id="@id/action_messages" android:title="@string/title_chat" app:showAsAction="never" />
+    <item android:id="@id/action_account_stats" android:title="@string/title_account_stats" app:showAsAction="never" />
+    <item android:id="@id/action_check_update" android:title="@string/title_check_update" app:showAsAction="never" />
+    <item android:id="@id/action_view_snaptag" android:title="@string/title_view_snaptag" app:showAsAction="never" />
+    <item android:id="@id/action_inject_snapchat_session" android:visible="false" android:title="@string/title_inject_snapchat_session" app:showAsAction="never" />
+    <item android:id="@id/action_view_authtoken" android:title="@string/title_session_authtoken" app:showAsAction="never" />
+    <item android:id="@id/action_terms_of_use" android:title="@string/title_terms_of_use" app:showAsAction="never" />
+</menu>

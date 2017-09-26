@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Prejsť na plochu</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Prejsť hore</string>
+    <string name="abc_action_menu_overflow_description">Ďalšie možnosti</string>
+    <string name="abc_action_mode_done">Hotovo</string>
+    <string name="abc_activity_chooser_view_see_all">Zobraziť všetko</string>
+    <string name="abc_activitychooserview_choose_application">Zvoľte aplikáciu</string>
+    <string name="abc_capital_off">VYP.</string>
+    <string name="abc_capital_on">ZAP.</string>
+    <string name="abc_search_hint">Vyhľadať…</string>
+    <string name="abc_searchview_description_clear">Vymazať dopyt</string>
+    <string name="abc_searchview_description_query">Vyhľadávací dopyt</string>
+    <string name="abc_searchview_description_search">Hľadať</string>
+    <string name="abc_searchview_description_submit">Odoslať dopyt</string>
+    <string name="abc_searchview_description_voice">Hlasové vyhľadávanie</string>
+    <string name="abc_shareactionprovider_share_with">Zdieľať pomocou</string>
+    <string name="abc_shareactionprovider_share_with_application">Zdieľať pomocou %s</string>
+    <string name="abc_toolbar_collapse_description">Zbaliť</string>
+    <string name="action_accept_request">Pridať ako priateľa</string>
+    <string name="action_block_user">Zablokovať uživateľa</string>
+    <string name="action_close_drawer">Zatvoriť kreslič</string>
+    <string name="action_delete_all_stories">Zmazať všetky príbehy</string>
+    <string name="action_delete_request">Odstrániť priateľa</string>
+    <string name="action_delete_story">Zmazať tento príbeh</string>
+    <string name="action_edit">Upraviť</string>
+    <string name="action_edit_display">Zmeniť meno</string>
+    <string name="action_logout">Odhlásiť sa</string>
+    <string name="action_mark_replayed">Označiť ako prehraté</string>
+    <string name="action_mark_screenshot">Označiť snímku obrazovky</string>
+    <string name="action_mark_viewed">Označiť ako videné</string>
+    <string name="action_open_drawer">Otvoriť kreslič</string>
+    <string name="action_reauth">Re-Auth Google</string>
+    <string name="action_reply">Odpovedať</string>
+    <string name="action_save">Uložiť</string>
+    <string name="action_send_as_snap">Odoslať ako Snap</string>
+    <string name="action_send_snap">Poslať Snap</string>
+    <string name="action_share">Zdielať</string>
+    <string name="action_stats">Štatistika</string>
+    <string name="action_unblock_user">Odblokovať uživateľa</string>
+    <string name="action_unfriend">Odstrániť priateľa</string>
+    <string name="button_add_friend">Pridať priateľa</string>
+    <string name="button_agree">Súhlasím</string>
+    <string name="button_buy_addon">Kúpiť doplnok</string>
+    <string name="button_cancel">Zrušiť</string>
+    <string name="button_choose">Zvol</string>
+    <string name="button_close">Zatvoriť</string>
+    <string name="button_continue">Pokračovať</string>
+    <string name="button_decline">Nesuhlasím</string>
+    <string name="button_download">Stiahnuť</string>
+    <string name="button_having_trouble">Mate problém?</string>
+    <string name="button_later">Neskôr</string>
+    <string name="button_learn_more">Zistite viac</string>
+    <string name="button_no">Nie</string>
+    <string name="button_ok">Okay</string>
+    <string name="button_photo">Fotka</string>
+    <string name="button_relaunch">Spustiť znovu</string>
+    <string name="button_retry">Znovu</string>
+    <string name="button_update">Aktualizácia</string>
+    <string name="button_video">Video</string>
+    <string name="button_yes">Áno</string>
+    <string name="common_google_play_services_api_unavailable_text">Aplikácia %1$s vyžaduje minimálne jednu službu Google Play, ktorá v súčasnosti nie je k dispozícii. Kontaktujte príslušného vývojára a požiadajte ho o pomoc.</string>
+    <string name="common_google_play_services_enable_button">Povoliť služby Google Play</string>
+    <string name="common_google_play_services_enable_text">Aplikácia %1$s bude fungovať až po povolení služieb Google Play.</string>
+    <string name="common_google_play_services_enable_title">Povoliť služby Google Play</string>
+    <string name="common_google_play_services_install_button">Inštalovať služby Google Play</string>
+    <string name="common_google_play_services_install_text_phone">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré na telefóne nemáte.</string>
+    <string name="common_google_play_services_install_text_tablet">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré na tablete nemáte.</string>
+    <string name="common_google_play_services_install_title">Inštalovať služby Google Play</string>
+    <string name="common_google_play_services_invalid_account_text">Zadaný účet v tomto zariadení neexistuje. Vyberte iný účet.</string>
+    <string name="common_google_play_services_invalid_account_title">Neplatný účet</string>
+    <string name="common_google_play_services_network_error_text">Pripojenie k službám Google Play vyžaduje dátové pripojenie.</string>
+    <string name="common_google_play_services_network_error_title">Chyba siete</string>
+    <string name="common_google_play_services_notification_ticker">Chyba služieb Google Play</string>
+    <string name="common_google_play_services_restricted_profile_text">Prístup k účtom z obmedzeného profilu nie je podporovaný.</string>
+    <string name="common_google_play_services_restricted_profile_title">Obmedzený profil</string>
+    <string name="common_google_play_services_sign_in_failed_text">Pri prihlasovaní do určeného účtu sa vyskytla chyba. Zvoľte iný účet.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Prihlásenie zlyhalo</string>
+    <string name="common_google_play_services_unknown_issue">Aplikácia %1$s má problémy so službami Google Play. Ak problém pretrváva, kontaktujte vývojára a požiadajte ho o pomoc.</string>
+    <string name="common_google_play_services_unsupported_text">Aplikácia %1$s potrebuje služby Google Play, ktoré vaše zariadenie nepodporuje. Kontaktujte príslušného výrobcu a požiadajte ho o pomoc.</string>
+    <string name="common_google_play_services_unsupported_title">Služby Google Play</string>
+    <string name="common_google_play_services_update_button">Aktualizovať</string>
+    <string name="common_google_play_services_update_text">Aplikáciu %1$s bude možné spustiť až po aktualizácii služieb Google Play.</string>
+    <string name="common_google_play_services_update_title">Aktualizácia služieb Google Play</string>
+    <string name="common_google_play_services_updating_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré sa momentálne aktualizujú.</string>
+    <string name="common_google_play_services_updating_title">Služby Google Play sa aktualizujú</string>
+    <string name="common_google_play_services_wear_update_text">Vyžaduje sa nová verzia služieb Google Play. Aktualizujú sa automaticky v najbližšom čase.</string>
+    <string name="common_open_on_phone">Otvoriť v telefóne</string>
+    <string name="common_signin_button_text">Prihlásiť sa</string>
+    <string name="common_signin_button_text_long">Prihlásiť sa do účtu Google</string>
+    <string name="error_chat_friend_fail">Nemožno chatovať s týmto Užívateľom.</string>
+    <string name="error_chat_gateway_error">Zlyhalo pripojenie na chatovaciu službu.</string>
+    <string name="error_file_not_found">Súbor nebol nájdený!</string>
+    <string name="error_file_not_usable">Nemožno použiť tento súbor</string>
+    <string name="error_file_web_not_usable">Nemožno použiť internetový prístup</string>
+    <string name="error_image">Dekódovanie obrázka zlyhalo</string>
+    <string name="error_imoji_load_failed">Sťahovanie Imoji zlyhalo</string>
+    <string name="error_media_size_rejected">Snapchat odmietol média pretože boli príliš veľké. Potrebujete zmenšiť video pomocou kompresovacej aplikácie.</string>
+    <string name="hint_auth_token_snapchat">Snapchat AuthToken</string>
+    <string name="hint_email_google">Google Email</string>
+    <string name="hint_password_google">Google heslo</string>
+    <string name="hint_password_snapchat">Snapchat heslo</string>
+    <string name="hint_username_snapchat">Snapchat uživateľské meno</string>
+    <string name="info_about_imoji">"Nálepky sú poskytované pomocou Imoji Public API.
+
+Môžeš vytvoriť svoju vlastnú nálepku v Imoji aplikácií a potom ju nájsť tu.
+
+Získať Imoji aplikáciu z Obchodu Play?"</string>
+    <string name="info_account_already_added">Účet už je prihlásený, Prepínam sa doňho.</string>
+    <string name="info_action_failed">Zlyhalo, skúste to neskôr.</string>
+    <string name="info_addon_multiple_accounts">"Toto je extra doplnok.
+
+Budete sa môcť prihlásiť do viacerých účtov a rýchlo medzi nimi prepínať.
+
+Chceli by ste tento doplnok zakúpiť?"</string>
+    <string name="info_addons_relaunch_required">"Účet:
+%1$s
+
+Doplnok Kúpený:
+%2$s
+
+Znovu spustenie je potrebné."</string>
+    <string name="info_authenticating">Autorizujem</string>
+    <string name="info_authenticating_chat">Overujem z chatom</string>
+    <string name="info_change_font">"Pre zmenenie písma textu stlačte tri bodky ikonu a zvoľte 'Zmeniť Písmo' keď ste v textovom paneli nástrojov"</string>
+    <string name="info_chat_unstable">"Chat je extrémne nestabilný.
+
+Môžeťe prijať správy a posielať ich späť.
+
+Prijaté média sa automaticky otvoria keď budú prijaté.
+
+Spravím to elegantnejšie neskôr."</string>
+    <string name="info_clear_drawing">Vyčistiť kresby?</string>
+    <string name="info_clear_stickers">Zmazať nálepky?</string>
+    <string name="info_conversation_empty">Konverzácia je prázdna</string>
+    <string name="info_copied_clipboard">Skopírovaný AuthToken do schránky</string>
+    <string name="info_default_camera">"Casper ma vlastné prostredie kamery (Experimentálne/Vo vývoji).
+
+Nemusí to vôbec fungovať na vašom zariadení.
+
+Môžete prepínať medzi Casper kamerou a nainštalovanými kamerami cez nastavenia."</string>
+    <string name="info_delete_emoji_pack">Zmazať Emoji balíček?</string>
+    <string name="info_delete_stories">Zmazať všetky príbehy?</string>
+    <string name="info_delete_story">Zmazať tento príbeh?</string>
+    <string name="info_deleted">Zmazané</string>
+    <string name="info_deleting">Vymazávam</string>
+    <string name="info_device_gallery_intent_error">Viac súborov z galérie nie je podporované. Ktorý typ média by ste chceli vybrať?</string>
+    <string name="info_disable_notifications_snapchat_session">Notifikácie Casper sú vypnuté Snapchat bude poskytovať okamžité notifikácie.</string>
+    <string name="info_download_emoji_apple">Stiahnuť Apple smajlíkový balíček?</string>
+    <string name="info_download_emoji_google">Sťiahnuť Google smajlíkový balíček?</string>
+    <string name="info_download_first">Stiahni písmo aby si ho mohol použiť!</string>
+    <string name="info_download_fonts">Sťahni najskôr nejaké písma!</string>
+    <string name="info_downloaded">Sťiahnuté!</string>
+    <string name="info_downloading_emoji_pack">Sťahujem smajlíkový balíček</string>
+    <string name="info_downloading_font">Sťahujem písmo</string>
+    <string name="info_downloading_update">Sťahovanie aktualizácie</string>
+    <string name="info_facebook_and_updates">"Casper nieje dostupný v Obchode Play a vyžaduje manuálne aktualizácie.
+
+Casper bude kontrolovať pre aktualizácie a spýta sa na inštaláciu.
+
+Prosím spravte si chvíľu na Like našej Facebook stránky aby ste mohli získavať najdôležitejšie oznámenia."</string>
+    <string name="info_failed_tap_retry">Sťahovanie zlyhalo, kliknutím skúste znova</string>
+    <string name="info_fetching_preview">Načítam náhľad...</string>
+    <string name="info_font_downloaded">Písmo stiahnuté!</string>
+    <string name="info_font_preview_failed">Zlyhalo načítanie ukážky</string>
+    <string name="info_forward_video_caption">Ponechať kreslenie a text pre toto nahraté video?</string>
+    <string name="info_friend_mutual_request">Už ste priatelia, alebo sa čaká na potvrdenie priateľstva.</string>
+    <string name="info_google_reauth">Toto zruší platnosť miestneho Google tokenu a vynúti znovu autorizovanie s Googlom.</string>
+    <string name="info_hold_snap_reply">Držaním Snapu nastaví odosielateľa Snapu ako príjemcu pre daľšie Snapy ktoré ste poslali.Pre zobrazenie Snapu iba raz kliknite.</string>
+    <string name="info_invalid_auth_token">Uživateľské meno + AuthToken boli odmietnuté.</string>
+    <string name="info_loading">Casper sa načíta</string>
+    <string name="info_loading_fonts">Načítam písma</string>
+    <string name="info_loading_imoji">Načítam nálepku</string>
+    <string name="info_logged_out">"'%1$s' Bol odhlasený!"</string>
+    <string name="info_login_credentials_blank">Prihlasovacie detaily sú potrebné</string>
+    <string name="info_login_credentials_google_blocked">"Vaše pokusy o prihlásenie boli blokované Googlom.
+
+Ak to bude pretrvávať prosím stlačte 'Zistiť viac'."</string>
+    <string name="info_login_credentials_google_incorrect">"Email alebo heslo sú nesprávne.
+
+Ak sú správne, mali by ste mať zapnutú 2 faktorové overenie pravosti a bude potrebné vytvoriť aplikáciu so špecifickým heslom.
+
+Prosím skúste znova."</string>
+    <string name="info_login_error">"Casper sa teraz nemôže prihlásiť. Prosím skúste to neskôr.
+
+Dalšie informácie
+%1$s"</string>
+    <string name="info_login_google">"Aby sa obišla Snapchat blokovaná tretia strana aplikácií,Casper potrebuje overiť Google účet pre Autorizáciu.Prosím stlačte 'Zistiť Viac' pre viac informacií."</string>
+    <string name="info_login_snapchat">"Tvoje Snapchat údaje sú poslané iba na Snapchat servery, uložené lokálne na tomto zariadení.Prosím stlačte 'Zistite viac' pre viacej informácii."</string>
+    <string name="info_login_step_1">Prihlasovací krok 1/2</string>
+    <string name="info_login_step_1_google">Google Autorizácia</string>
+    <string name="info_login_step_2">Prihlasovací krok 2/2</string>
+    <string name="info_login_step_2_snapchat">Snapchat Autorizácia</string>
+    <string name="info_logout_server">Odhlásiť sa zo Snapchat serverov tiež? Spôsobí odhlásenie Snapchatu ak používajú rovnakú session.</string>
+    <string name="info_lose_snap">Chcete odísť? Stratíte svoj snap!</string>
+    <string name="info_marking_screenshot">Označujem ako snímku obrazovky!</string>
+    <string name="info_marking_viewed">Označené ako videné!</string>
+    <string name="info_media_downloading">Média sa sťahujú!</string>
+    <string name="info_must_agree">Musíte potvrdiť používanie Caspera</string>
+    <string name="info_new_snap">Nový Snap od %1$s</string>
+    <string name="info_no_addons_purchased">Žiadne doplnky nie sú zakúpené</string>
+    <string name="info_no_chat">"Chat nie je dostupný v Casperovi.
+
+Plánoval som to pridať, ale v tomto momente nemôžem.
+
+Zatiaľ musíte použiť oficiálnu aplikáciu."</string>
+    <string name="info_no_fonts">Žiadne písmo dostupné</string>
+    <string name="info_no_friends">Žiadny priatelia?!</string>
+    <string name="info_no_friends_requests">Žiadne žiadosti o priateľstvo!</string>
+    <string name="info_no_snaps">Žiadne snapy</string>
+    <string name="info_no_stories">Žiadne príbehy!</string>
+    <string name="info_no_story_views">Nikto si zatiaľ nepozrel tento príbeh!</string>
+    <string name="info_no_updates">"Žiadne dostupné aktualizácie
+Spúštam %1$s"</string>
+    <string name="info_no_updates_beta">"Žiadne dostupné BETA aktualizácie
+Spúštam %1$s"</string>
+    <string name="info_one_moment">Chviľku</string>
+    <string name="info_processing_friends">Synchronizujem priateľov</string>
+    <string name="info_processing_image">Spracovávam obrázok</string>
+    <string name="info_processing_thumbnail">Vytváram video náhľad</string>
+    <string name="info_processing_zip">Pripravujem Zip archív</string>
+    <string name="info_provide_details_google_first">Prosím najskôr sa prihláste s Google účtom</string>
+    <string name="info_reading_snapchat_session">Čítam Snapchat Session</string>
+    <string name="info_recipients_limit">Príliš veľa príjemcov Snap bude odoslaný len prvím 200!</string>
+    <string name="info_refreshing_snaps">Obnovujem Snapy</string>
+    <string name="info_reply_snap">Vezmite/Zvoľte Snap na odpoveď</string>
+    <string name="info_saved">Uložené!</string>
+    <string name="info_select_font">Keď ste si stiahli písmo kliknite na to písmo na to aby ste ho použili.</string>
+    <string name="info_select_recipients">Vyberte aspoň jedného príjemcu</string>
+    <string name="info_send_friend_snap">Vezmite/Zvoľte Snap na odoslanie.</string>
+    <string name="info_sending_to_recipients">Odosielanie príjemcom</string>
+    <string name="info_sent">Snap poslaný</string>
+    <string name="info_share_via_casper">"Ak si nemôžete vybrať video pre nejaký dôvod, môžete \"Zdielať cez\" Caspera.
+
+Otvorte aplikáciu galéria,nájdite video a stlačte Zdielať ikonu.
+
+Potom vyberte Caspera v zdielacom zozname."</string>
+    <string name="info_snap_cached">Snap nájdený vo vyrovnávacej pamäti!</string>
+    <string name="info_snap_sent">Snap poslaný!</string>
+    <string name="info_snapchat_session_not_available">"Zdá sa že nie ste prihlásený do Snapchatu
+
+Prihláste sa do Snapchatu aby ste použili túto funkciu"</string>
+    <string name="info_snapchat_session_not_found">"Casper nemôže čítať Snapchat Session dáta.
+
+Je to preto lebo vaše zariadenie nieje ROOTnute alebo Casper nevie nájsť Session súbor.
+
+:'("</string>
+    <string name="info_snapchat_session_root">"Ak vaše zariadenie má root prístup, Casper môže byť prihlásený do rovnakej session ako Snapchat.
+
+Budete môcť odosielať snapy v Snapchate, potom otvorte Caspera pre uloženie snapov bez toho aby ste boli odhlásený z jednej z aplikácií.
+
+Odhlásenie sa z jednej z aplikácii spôsobí, že sa odhlásite z oboch aplikácií."</string>
+    <string name="info_snaptag_download_failed">Zlyhalo sťahovanie SnapTagu!</string>
+    <string name="info_stats">"Skóre: %1$d
+Poslané: %2$d
+Prijaté: %3$d
+Priatelia: %4$d"</string>
+    <string name="info_stories_empty">Žiaden príbeh nieje dostupný</string>
+    <string name="info_tos">Predtým ako začnete používať Caspera musíte si prečítať a súhlasiť s &lt;a href=%1$s>Podmienkami používania&lt;/a></string>
+    <string name="info_update_available">"Aktualizácia je dostupná pre Caspera.
+
+Je odporúčané aby ste teraz aktualizovali.
+
+Aktualizácia zaberie iba chvíľu, aktualizovať teraz?"</string>
+    <string name="info_update_failed_manually_retry">Sťahovanie aktualizácie zlyhalo, Stiahnuť manuálne?</string>
+    <string name="info_uploading_to_snapchat">Nahrávam na Snapchat</string>
+    <string name="info_username_auth_token">Prosím poskytnite použivateľské meno s AuthToken.</string>
+    <string name="info_video_error_reopen">"Niektoré videá sa odmietli prehrať na prvý krát. 
+
+Stlačte 'OKAY' a skúste to znova. 
+
+"</string>
+    <string name="info_video_too_large">"Toto video je väčšie ako 5MB
+
+Snapchat ich neakceptuje.
+
+Použi video kompresiu aplikácie na zníženie veľkosti videa.
+
+Vybraný veľkosť súboru: %1$s"</string>
+    <string name="info_view_snap_hide_toolbars">Kliknite na fotku alebo video aby ste ukázali alebo skryli panel nástrojov</string>
+    <string name="info_viewed_icon">"Táto ikona znamená že ste označili tento príbeh ako videný.
+
+Ukáže sa po obnovení ak to práve označíte ako videný príbeh."</string>
+    <string name="item_media_deleted">Tento príbeh bol zmazaný</string>
+    <string name="item_media_time_downloading">Sťahujem - %1$s</string>
+    <string name="item_media_time_reply">%1$s - Podrž pre odpoveď</string>
+    <string name="item_media_time_tap_download">Klikni pre stiahnutie - %1$s</string>
+    <string name="item_media_time_tap_view">%1$s - Klikni pre zobrazenie</string>
+    <string name="place_autocomplete_clear_button">Vymazať vyhľadávanie</string>
+    <string name="place_autocomplete_search_hint">Vyhľadávajte</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_about">O Aplikacií</string>
+    <string name="title_about_version">Verzia</string>
+    <string name="title_about_version_summary">v%1$s</string>
+    <string name="title_account_stats">Štatistika účtu</string>
+    <string name="title_add_account">Pridať Snapchat učet</string>
+    <string name="title_addons">Doplnky</string>
+    <string name="title_announcements">Posledné oznamenia</string>
+    <string name="title_auto_mark_viewed">Automaticky označiť videné</string>
+    <string name="title_auto_mark_viewed_snaps_open">Snapy pri otvorení</string>
+    <string name="title_auto_mark_viewed_stories_open">Príbehy pri otvorení</string>
+    <string name="title_auto_save_sent_snaps">Uložiť odoslané snapy</string>
+    <string name="title_auto_save_snaps">Uložiť snapy po stiahnutí</string>
+    <string name="title_auto_save_snaps_open">Uložiť snapy keď sa otvoria</string>
+    <string name="title_auto_save_stories">Uložiť príbehy po sťahovaní</string>
+    <string name="title_auto_save_stories_open">Uložiť príbehy keď sa otvoria</string>
+    <string name="title_auto_saving">Automatické ukladanie</string>
+    <string name="title_background">Pozadie</string>
+    <string name="title_camera">Kamera</string>
+    <string name="title_casper_login">Casper prihlásenie</string>
+    <string name="title_change_colour">Zmeniť farbu</string>
+    <string name="title_change_font">Zmeniť písmo</string>
+    <string name="title_chat">Správa</string>
+    <string name="title_check_purchases">Skontrolovať pre nákupy</string>
+    <string name="title_check_update">Skontrolovať aktualizácie</string>
+    <string name="title_choose_account">Vybrať účet</string>
+    <string name="title_choose_recipients">Vybrať príjemcu</string>
+    <string name="title_confirm_action">Potvrdiť akciu</string>
+    <string name="title_conversation">Konverzácia</string>
+    <string name="title_credentials">Osobné udaje</string>
+    <string name="title_default_camera">Predvolená kamera</string>
+    <string name="title_default_camera_summary">Vyberte kameru na spustenie pri stlačení kamera ikony.</string>
+    <string name="title_display">Zobraziť</string>
+    <string name="title_emoji_apple">Apple smajlíci</string>
+    <string name="title_emoji_google">Google smajlíci</string>
+    <string name="title_enable_notifications">Povoliť</string>
+    <string name="title_error_occurred">Hopla!</string>
+    <string name="title_facebook">Facebook</string>
+    <string name="title_follow_me">Sleduj ma</string>
+    <string name="title_fonts">Písma</string>
+    <string name="title_friends">Priateľia</string>
+    <string name="title_friends_requests">Žiadosti o priateľstvo</string>
+    <string name="title_get_addons">Získať doplnky</string>
+    <string name="title_get_addons_ads">Odstrániť reklamy</string>
+    <string name="title_google">Google</string>
+    <string name="title_help">Pomoc</string>
+    <string name="title_hide_viewer_toolbar">Skryť zobrazenie panela nástrojov</string>
+    <string name="title_hide_viewer_toolbar_summary">Skryť zobrazenie panela nástrojov keď sa Snap otvorí. (Stlačte pre ukázanie)</string>
+    <string name="title_imoji">Nálepky z Imoji</string>
+    <string name="title_imoji_about">O Imoji</string>
+    <string name="title_info">Informácia</string>
+    <string name="title_instagram">Instagram</string>
+    <string name="title_knowledge_base">Báza vedomostí</string>
+    <string name="title_manage_accounts">Pridať účet</string>
+    <string name="title_managers">Správcovia</string>
+    <string name="title_media_clear_cache">Vymazať vyrovnávaciu pamať</string>
+    <string name="title_media_clear_cache_summary">Vymazať dočasné súbory a reštartovať.</string>
+    <string name="title_media_folder">Casper umiestnenie</string>
+    <string name="title_media_folder_summary">"Vybrali ste si:
+%1$s
+
+Toto je miesto kde budú všetky uložené/stiahnuté súbory uložené.
+
+Casper vytvorí ostatné priečinky v adresári.
+
+Vyhnite sa používaniu externých SD kariet, ak su odstránené nastavenie sa vráti do pôvodného priečinku na inštaláciu
+
+Všetky snapy NEBUDÚ presunuté do tohto priečinka.
+
+Reštartovať aplikáciu aby sa prejavili zmeny?"</string>
+    <string name="title_message_hint">Poslať správu</string>
+    <string name="title_my_stories">Moje príbehy</string>
+    <string name="title_notifications">Notifikácie</string>
+    <string name="title_notifications_interval">Skontrolovať interval</string>
+    <string name="title_notifications_interval_summary">Interval na kontrolovanie servera pre nové snapy. Náhodné množstvo sekúnd (medzi 0 a 15 minút) bude pridaný interval pre dalši cyklus aby vyzeral ako skutočné využitie Snapchat servera.Napríklad,vybratím 15 minút bude kontrolovať nový Snap hocikedy medzi 15 a 30 minútami.</string>
+    <string name="title_or">alebo</string>
+    <string name="title_other">Ostatné</string>
+    <string name="title_other_auto_download_stories">Automatický stiahnuť príbehy</string>
+    <string name="title_other_blackberry_mode">BlackBerry mód</string>
+    <string name="title_other_blackberry_mode_summary">Použite ak používate BlackBerry zariadenie.</string>
+    <string name="title_remember_google">Zapamätať Google údaje</string>
+    <string name="title_remember_password">Zapamätať Snapchat heslo</string>
+    <string name="title_remember_password_summary">Automaticky doplniť heslo keď sa odhlásite zo Snapchat serveru</string>
+    <string name="title_remove_font">Použiť predvolené písmo</string>
+    <string name="title_remove_google_account">Odstrániť Google účet</string>
+    <string name="title_remove_snapchat_accounts">Odstrániť všetky Snapchat účty</string>
+    <string name="title_saved_snaps">Uložené snapy</string>
+    <string name="title_search_hint">Klikni pre vyhľadanie nálepiek</string>
+    <string name="title_send_camera">Spusťiť kameru</string>
+    <string name="title_send_gallery">Vybrať z galérie</string>
+    <string name="title_session_authtoken">Session AuthToken</string>
+    <string name="title_settings">Nastavenia</string>
+    <string name="title_show_view_time">Čas na Snapoch a Príbehu</string>
+    <string name="title_snapchat">Snapchat</string>
+    <string name="title_snapchat_session">Použiť Snapchat Session (ROOT)</string>
+    <string name="title_snaps">Snapy</string>
+    <string name="title_storage">Úložisko</string>
+    <string name="title_stories">Príbehy</string>
+    <string name="title_story_stats">Štatistika príbehu</string>
+    <string name="title_switch_account">Prepnúť účet</string>
+    <string name="title_terms_of_use">Podmienky používania</string>
+    <string name="title_text">Text</string>
+    <string name="title_update">Aktualizácia</string>
+    <string name="title_updates">Aktualizácie</string>
+    <string name="title_updates_beta">Získať BETA aktualizácie</string>
+    <string name="title_updates_beta_summary">Ked vydám aktualizáciu s exprimentálnymi funkciami budete upozornení ako s normálnou aktualizáciou.</string>
+    <string name="title_username_hint">Používateľské meno</string>
+    <string name="title_view_snaptag">Môj SnapTag</string>
+</resources>

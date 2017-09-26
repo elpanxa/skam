@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:layout_gravity="center" android:id="@id/emptyText" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_no_fonts" />
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/refreshView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+</FrameLayout>
